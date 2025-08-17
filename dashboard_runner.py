@@ -43,9 +43,9 @@ def setup_dashboard():
     print("✅ All data files found")
     
     # Check if HTML dashboard exists
-    if not os.path.exists('arr_dashboard.html'):
+    if not os.path.exists('index.html'):
         print("❌ Dashboard HTML file not found")
-        print("💡 Please save the HTML code as 'arr_dashboard.html'")
+        print("💡 Please save the HTML code as 'index.html'")
         return False
     
     print("✅ Dashboard HTML file found")
@@ -69,7 +69,7 @@ def start_server(port=8000):
         
         with socketserver.TCPServer(("", port), CORSHTTPRequestHandler) as httpd:
             print(f"🌐 Starting server at http://localhost:{port}")
-            print(f"📊 Dashboard URL: http://localhost:{port}/arr_dashboard.html")
+            print(f"📊 Dashboard URL: http://localhost:{port}/index.html")
             print("\n🎯 Dashboard Features:")
             print("   • Interactive KPI cards with drill-down")
             print("   • Professional ARR waterfall chart")
@@ -80,8 +80,8 @@ def start_server(port=8000):
             
             print(f"\n🔗 Opening dashboard in browser...")
             
-            # Open browser automatically
-            webbrowser.open(f'http://localhost:{port}/arr_dashboard.html')
+                    # Open browser automatically
+        webbrowser.open(f'http://localhost:{port}/index.html')
             
             print(f"\n⚡ Server running... Press Ctrl+C to stop")
             print(f"📁 Serving files from: {os.getcwd()}")

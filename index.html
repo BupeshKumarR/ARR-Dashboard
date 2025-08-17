@@ -365,39 +365,44 @@
 
         // Main data loading function
         async function loadAllData() {
-            console.log('Starting data load...');
+            console.log('Starting data load from Flask API...');
             
             try {
-                // Load ARR Monthly Summary
-                const arrResponse = await fetch('cleaned_arr_data/arr_monthly_summary.csv');
-                if (!arrResponse.ok) throw new Error('ARR summary file not found');
-                const arrText = await arrResponse.text();
-                const arrParsed = Papa.parse(arrText, { header: true, dynamicTyping: true });
-                arrSummaryData = arrParsed.data.filter(row => row.month && row.current_arr);
-                console.log('ARR summary loaded:', arrSummaryData.length, 'records');
+                // Load KPIs from Flask API
+                const kpiResponse = await fetch('/api/kpis');
+                if (!kpiResponse.ok) throw new Error('KPI API failed');
+                const kpiData = await kpiResponse.json();
+                console.log('KPIs loaded:', kpiData);
 
-                // Load ARR Rollforward
-                const rollforwardResponse = await fetch('cleaned_arr_data/arr_rollforward.csv');
-                if (!rollforwardResponse.ok) throw new Error('Rollforward file not found');
-                const rollforwardText = await rollforwardResponse.text();
-                const rollforwardParsed = Papa.parse(rollforwardText, { header: true, dynamicTyping: true });
-                rollforwardData = rollforwardParsed.data.filter(row => row.month && row.ending_arr);
-                console.log('Rollforward loaded:', rollforwardData.length, 'records');
+                // Load Waterfall data from Flask API
+                const waterfallResponse = await fetch('/api/waterfall');
+                if (!waterfallResponse.ok) throw new Error('Waterfall API failed');
+                const waterfallData = await waterfallResponse.json();
+                console.log('Waterfall loaded:', waterfallData);
 
-                // Load Subscriptions for segmentation
-                const subscriptionResponse = await fetch('cleaned_arr_data/subscriptions_clean.csv');
-                if (!subscriptionResponse.ok) throw new Error('Subscriptions file not found');
-                const subscriptionText = await subscriptionResponse.text();
-                const subscriptionParsed = Papa.parse(subscriptionText, { header: true, dynamicTyping: true });
-                subscriptionData = subscriptionParsed.data.filter(row => row.customer_id && row.arr_amount);
-                console.log('Subscriptions loaded:', subscriptionData.length, 'records');
+                // Load Segments data from Flask API
+                const segmentsResponse = await fetch('/api/segments');
+                if (!segmentsResponse.ok) throw new Error('Segments API failed');
+                const segmentsData = await segmentsResponse.json();
+                console.log('Segments loaded:', segmentsData);
+
+                // Load Trend data from Flask API
+                const trendResponse = await fetch('/api/trend');
+                if (!trendResponse.ok) throw new Error('Trend API failed');
+                const trendData = await trendResponse.json();
+                console.log('Trend loaded:', trendData);
+
+                // Store data globally
+                arrSummaryData = trendData;
+                rollforwardData = [waterfallData];
+                subscriptionData = segmentsData;
 
                 // Update dashboard with real data
                 updateDashboardWithRealData();
 
             } catch (error) {
-                console.error('Error loading data:', error);
-                showDataError(error.message);
+                console.error('Error loading data from API:', error);
+                showDataError('Failed to load data from API: ' + error.message);
             }
         }
 
@@ -774,7 +779,10 @@
                     <h3>Data Loading Error</h3>
                     <p>${message}</p>
                     <p style="margin-top: 1rem; font-size: 0.875rem; color: #718096;">
-                        Make sure your CSV files are in the 'cleaned_arr_data/' directory
+                        Make sure your Flask app is running and the API endpoints are accessible
+                    </p>
+                    <p style="margin-top: 0.5rem; font-size: 0.875rem; color: #718096;">
+                        Check the browser console for detailed error information
                     </p>
                 </div>
             `;
