@@ -1,0 +1,1001 @@
+customer_id,company_name,industry,company_size,signup_date,country,contact_email,days_since_signup,months_since_signup
+cust_000001,CloudFirst 1,Media,SMB (1-50),2025-01-10,Canada,contact1@scaleworks.com,219,7.194480946123521
+cust_000002,DataFlow Inc 2,Media,Mid-Market (51-500),2022-06-02,Canada,contact2@startuphub.com,1172,38.50197109067017
+cust_000003,StartupHub 3,Retail,Mid-Market (51-500),2023-05-14,Germany,contact3@devtools inc.com,826,27.135348226018397
+cust_000004,StartupHub 4,Education,Enterprise (500+),2023-10-24,France,contact4@techcorp.com,663,21.780551905387647
+cust_000005,StartupHub 5,Media,Enterprise (500+),2022-03-19,US,contact5@techcorp.com,1247,40.9658344283837
+cust_000006,ScaleWorks 6,Media,Mid-Market (51-500),2023-12-21,Germany,contact6@growthco.com,605,19.87516425755585
+cust_000007,StartupHub 7,Consulting,Enterprise (500+),2022-12-22,Germany,contact7@growthco.com,969,31.83311432325887
+cust_000008,DevTools Inc 8,Healthcare,Mid-Market (51-500),2023-12-21,US,contact8@dataflow inc.com,605,19.87516425755585
+cust_000009,CloudFirst 9,Retail,Enterprise (500+),2024-11-03,UK,contact9@techcorp.com,287,9.42838370565046
+cust_000010,DevTools Inc 10,Finance,Enterprise (500+),2022-11-01,UK,contact10@devtools inc.com,1020,33.50854139290407
+cust_000011,InnovateLab 11,Education,Mid-Market (51-500),2025-01-02,Australia,contact11@innovatelab.com,227,7.457293035479632
+cust_000012,StartupHub 12,Manufacturing,Mid-Market (51-500),2025-03-30,Germany,contact12@cloudfirst.com,140,4.599211563731932
+cust_000013,GrowthCo 13,Education,Enterprise (500+),2025-03-10,France,contact13@innovatelab.com,160,5.256241787122208
+cust_000014,InnovateLab 14,Manufacturing,Mid-Market (51-500),2024-10-28,UK,contact14@innovatelab.com,293,9.625492772667542
+cust_000015,DevTools Inc 15,Finance,SMB (1-50),2024-02-12,France,contact15@scaleworks.com,552,18.134034165571617
+cust_000016,SaasMaster 16,Education,SMB (1-50),2024-02-07,UK,contact16@cloudtech.com,557,18.298291721419183
+cust_000017,TechCorp 17,Education,Enterprise (500+),2025-05-19,Australia,contact17@scaleworks.com,90,2.9566360052562417
+cust_000018,SaasMaster 18,Technology,Enterprise (500+),2022-07-21,France,contact18@growthco.com,1123,36.892247043363994
+cust_000019,InnovateLab 19,Education,SMB (1-50),2025-06-14,France,contact19@saasmaster.com,64,2.102496714848883
+cust_000020,InnovateLab 20,Education,Mid-Market (51-500),2024-07-04,UK,contact20@cloudtech.com,409,13.436268068331144
+cust_000021,CloudFirst 21,Manufacturing,Enterprise (500+),2025-04-14,UK,contact21@techcorp.com,125,4.106438896189225
+cust_000022,StartupHub 22,Consulting,Mid-Market (51-500),2025-07-05,US,contact22@devtools inc.com,43,1.4126149802890933
+cust_000023,GrowthCo 23,Technology,Enterprise (500+),2023-07-10,Germany,contact23@dataflow inc.com,769,25.26281208935611
+cust_000024,GrowthCo 24,Technology,SMB (1-50),2024-09-25,Canada,contact24@dataflow inc.com,326,10.709592641261498
+cust_000025,GrowthCo 25,Retail,SMB (1-50),2022-12-05,Germany,contact25@startuphub.com,986,32.3915900131406
+cust_000026,GrowthCo 26,Education,Mid-Market (51-500),2025-08-15,UK,contact26@cloudfirst.com,2,0.0657030223390276
+cust_000027,ScaleWorks 27,Consulting,Enterprise (500+),2024-03-04,Germany,contact27@startuphub.com,531,17.444152431011826
+cust_000028,DevTools Inc 28,Retail,SMB (1-50),2025-02-11,Canada,contact28@startuphub.com,187,6.14323258869908
+cust_000029,ScaleWorks 29,Education,SMB (1-50),2025-05-03,US,contact29@scaleworks.com,106,3.4822601839684624
+cust_000030,ScaleWorks 30,Education,SMB (1-50),2023-12-15,UK,contact30@techcorp.com,611,20.07227332457293
+cust_000031,InnovateLab 31,Education,Enterprise (500+),2025-03-19,France,contact31@innovatelab.com,151,4.9605781865965834
+cust_000032,CloudTech 32,Technology,Enterprise (500+),2024-12-04,France,contact32@growthco.com,256,8.409986859395532
+cust_000033,SaasMaster 33,Healthcare,Mid-Market (51-500),2024-05-31,US,contact33@dataflow inc.com,443,14.553219448094612
+cust_000034,StartupHub 34,Technology,Mid-Market (51-500),2022-11-26,Canada,contact34@devtools inc.com,995,32.68725361366623
+cust_000035,DevTools Inc 35,Healthcare,Mid-Market (51-500),2022-10-25,Germany,contact35@cloudfirst.com,1027,33.73850197109067
+cust_000036,InnovateLab 36,Media,Mid-Market (51-500),2024-01-28,Germany,contact36@scaleworks.com,567,18.626806833114323
+cust_000037,SaasMaster 37,Retail,SMB (1-50),2022-11-12,US,contact37@techcorp.com,1009,33.14717477003942
+cust_000038,DataFlow Inc 38,Consulting,SMB (1-50),2023-09-24,Canada,contact38@scaleworks.com,693,22.766097240473062
+cust_000039,StartupHub 39,Retail,SMB (1-50),2023-05-02,Canada,contact39@dataflow inc.com,838,27.529566360052563
+cust_000040,DevTools Inc 40,Education,Enterprise (500+),2022-11-20,Australia,contact40@cloudtech.com,1001,32.88436268068331
+cust_000041,SaasMaster 41,Consulting,Mid-Market (51-500),2025-05-10,UK,contact41@startuphub.com,99,3.252299605781866
+cust_000042,DataFlow Inc 42,Finance,Enterprise (500+),2022-03-29,France,contact42@startuphub.com,1237,40.63731931668857
+cust_000043,GrowthCo 43,Consulting,Mid-Market (51-500),2022-09-19,Canada,contact43@dataflow inc.com,1063,34.92115637319316
+cust_000044,InnovateLab 44,Healthcare,Mid-Market (51-500),2022-02-13,Australia,contact44@startuphub.com,1281,42.08278580814717
+cust_000045,CloudFirst 45,Finance,Mid-Market (51-500),2024-04-03,UK,contact45@innovatelab.com,501,16.45860709592641
+cust_000046,SaasMaster 46,Finance,Enterprise (500+),2022-02-15,UK,contact46@devtools inc.com,1279,42.01708278580814
+cust_000047,TechCorp 47,Education,Mid-Market (51-500),2022-07-19,Australia,contact47@cloudtech.com,1125,36.957950065703024
+cust_000048,StartupHub 48,Technology,Mid-Market (51-500),2023-04-16,France,contact48@innovatelab.com,854,28.055190538764784
+cust_000049,DevTools Inc 49,Finance,Mid-Market (51-500),2025-02-27,Germany,contact49@cloudfirst.com,171,5.617608409986859
+cust_000050,GrowthCo 50,Education,Mid-Market (51-500),2022-10-01,US,contact50@cloudtech.com,1051,34.526938239159
+cust_000051,DevTools Inc 51,Media,Enterprise (500+),2023-11-26,Germany,contact51@techcorp.com,630,20.69645203679369
+cust_000052,CloudTech 52,Finance,SMB (1-50),2024-03-03,US,contact52@growthco.com,532,17.47700394218134
+cust_000053,TechCorp 53,Finance,SMB (1-50),2023-11-20,US,contact53@innovatelab.com,636,20.893561103810775
+cust_000054,ScaleWorks 54,Retail,Mid-Market (51-500),2025-05-11,Germany,contact54@devtools inc.com,98,3.219448094612352
+cust_000055,TechCorp 55,Manufacturing,SMB (1-50),2025-06-12,UK,contact55@innovatelab.com,66,2.1681997371879107
+cust_000056,GrowthCo 56,Finance,SMB (1-50),2023-12-30,US,contact56@cloudtech.com,596,19.579500657030223
+cust_000057,GrowthCo 57,Consulting,SMB (1-50),2023-11-16,US,contact57@dataflow inc.com,640,21.02496714848883
+cust_000058,SaasMaster 58,Technology,SMB (1-50),2025-04-29,Germany,contact58@growthco.com,110,3.6136662286465175
+cust_000059,TechCorp 59,Media,Enterprise (500+),2024-09-30,UK,contact59@innovatelab.com,321,10.545335085413928
+cust_000060,ScaleWorks 60,Consulting,Mid-Market (51-500),2025-07-15,France,contact60@startuphub.com,33,1.0840998685939554
+cust_000061,SaasMaster 61,Manufacturing,Mid-Market (51-500),2024-10-04,US,contact61@scaleworks.com,317,10.413929040735873
+cust_000062,DataFlow Inc 62,Education,SMB (1-50),2024-01-31,US,contact62@saasmaster.com,564,18.528252299605782
+cust_000063,SaasMaster 63,Technology,Mid-Market (51-500),2022-12-16,Germany,contact63@growthco.com,975,32.03022339027595
+cust_000064,StartupHub 64,Media,Enterprise (500+),2023-09-02,Canada,contact64@growthco.com,715,23.488830486202364
+cust_000065,SaasMaster 65,Technology,SMB (1-50),2024-08-09,UK,contact65@dataflow inc.com,373,12.253613666228645
+cust_000066,StartupHub 66,Media,Mid-Market (51-500),2023-12-11,Germany,contact66@saasmaster.com,615,20.203679369250985
+cust_000067,CloudTech 67,Education,Mid-Market (51-500),2023-01-05,Australia,contact67@cloudtech.com,955,31.373193166885674
+cust_000068,GrowthCo 68,Retail,Mid-Market (51-500),2023-07-15,Australia,contact68@startuphub.com,764,25.09855453350854
+cust_000069,DataFlow Inc 69,Retail,Enterprise (500+),2022-11-20,UK,contact69@innovatelab.com,1001,32.88436268068331
+cust_000070,CloudFirst 70,Manufacturing,Mid-Market (51-500),2023-08-06,US,contact70@dataflow inc.com,742,24.375821287779235
+cust_000071,DevTools Inc 71,Consulting,Mid-Market (51-500),2024-08-03,France,contact71@devtools inc.com,379,12.450722733245728
+cust_000072,DevTools Inc 72,Education,SMB (1-50),2023-02-06,France,contact72@devtools inc.com,923,30.321944809461232
+cust_000073,ScaleWorks 73,Manufacturing,Enterprise (500+),2022-02-05,France,contact73@startuphub.com,1289,42.34559789750328
+cust_000074,ScaleWorks 74,Healthcare,SMB (1-50),2022-02-19,Germany,contact74@saasmaster.com,1275,41.88567674113009
+cust_000075,ScaleWorks 75,Technology,Enterprise (500+),2024-03-18,Canada,contact75@saasmaster.com,517,16.98423127463863
+cust_000076,CloudFirst 76,Retail,Enterprise (500+),2023-12-27,US,contact76@cloudtech.com,599,19.678055190538764
+cust_000077,CloudTech 77,Consulting,Mid-Market (51-500),2024-05-27,Canada,contact77@techcorp.com,447,14.684625492772668
+cust_000078,TechCorp 78,Retail,Enterprise (500+),2022-04-28,UK,contact78@techcorp.com,1207,39.65177398160315
+cust_000079,StartupHub 79,Media,Enterprise (500+),2023-01-13,US,contact79@innovatelab.com,947,31.110381077529563
+cust_000080,DataFlow Inc 80,Finance,Mid-Market (51-500),2023-11-23,UK,contact80@cloudtech.com,633,20.795006570302235
+cust_000081,SaasMaster 81,Manufacturing,Enterprise (500+),2023-05-28,France,contact81@scaleworks.com,812,26.675427069645202
+cust_000082,SaasMaster 82,Manufacturing,Enterprise (500+),2023-07-22,Australia,contact82@techcorp.com,757,24.868593955321945
+cust_000083,DevTools Inc 83,Finance,Enterprise (500+),2024-08-04,Australia,contact83@saasmaster.com,378,12.417871222076215
+cust_000084,CloudFirst 84,Retail,Enterprise (500+),2024-10-04,US,contact84@dataflow inc.com,317,10.413929040735873
+cust_000085,TechCorp 85,Manufacturing,Mid-Market (51-500),2025-07-23,Canada,contact85@cloudtech.com,25,0.8212877792378449
+cust_000086,ScaleWorks 86,Healthcare,Mid-Market (51-500),2023-03-26,France,contact86@techcorp.com,875,28.74507227332457
+cust_000087,DataFlow Inc 87,Healthcare,SMB (1-50),2023-11-14,US,contact87@cloudtech.com,642,21.090670170827856
+cust_000088,ScaleWorks 88,Healthcare,Enterprise (500+),2023-06-20,US,contact88@cloudfirst.com,789,25.919842312746386
+cust_000089,GrowthCo 89,Education,Enterprise (500+),2022-09-23,France,contact89@innovatelab.com,1059,34.78975032851511
+cust_000090,TechCorp 90,Education,Mid-Market (51-500),2022-09-08,Germany,contact90@growthco.com,1074,35.282522996057814
+cust_000091,ScaleWorks 91,Technology,Enterprise (500+),2023-09-26,France,contact91@dataflow inc.com,691,22.700394218134033
+cust_000092,CloudFirst 92,Consulting,SMB (1-50),2025-08-10,France,contact92@cloudtech.com,7,0.22996057818659657
+cust_000093,CloudTech 93,Consulting,Mid-Market (51-500),2024-11-13,UK,contact93@techcorp.com,277,9.099868593955321
+cust_000094,InnovateLab 94,Manufacturing,Enterprise (500+),2024-09-26,US,contact94@cloudtech.com,325,10.676741130091983
+cust_000095,CloudFirst 95,Manufacturing,SMB (1-50),2025-03-18,Germany,contact95@growthco.com,152,4.993429697766097
+cust_000096,GrowthCo 96,Retail,SMB (1-50),2023-12-04,UK,contact96@innovatelab.com,622,20.43363994743758
+cust_000097,StartupHub 97,Media,Enterprise (500+),2022-05-16,Germany,contact97@saasmaster.com,1189,39.060446780551906
+cust_000098,InnovateLab 98,Consulting,Mid-Market (51-500),2022-09-17,UK,contact98@cloudfirst.com,1065,34.98685939553219
+cust_000099,CloudFirst 99,Retail,Mid-Market (51-500),2024-11-15,US,contact99@startuphub.com,275,9.034165571616294
+cust_000100,CloudFirst 100,Retail,Mid-Market (51-500),2022-04-02,UK,contact100@devtools inc.com,1233,40.50591327201051
+cust_000101,GrowthCo 101,Finance,Enterprise (500+),2023-09-15,Germany,contact101@dataflow inc.com,702,23.061760840998684
+cust_000102,InnovateLab 102,Education,Mid-Market (51-500),2022-07-26,US,contact102@cloudfirst.com,1118,36.727989487516425
+cust_000103,DevTools Inc 103,Education,Enterprise (500+),2024-06-08,France,contact103@dataflow inc.com,435,14.290407358738502
+cust_000104,TechCorp 104,Technology,SMB (1-50),2022-12-21,US,contact104@scaleworks.com,970,31.865965834428383
+cust_000105,ScaleWorks 105,Manufacturing,SMB (1-50),2025-04-01,Australia,contact105@devtools inc.com,138,4.533508541392904
+cust_000106,DataFlow Inc 106,Retail,Mid-Market (51-500),2022-10-31,UK,contact106@startuphub.com,1021,33.54139290407359
+cust_000107,GrowthCo 107,Finance,Mid-Market (51-500),2024-11-18,US,contact107@growthco.com,272,8.935611038107753
+cust_000108,DevTools Inc 108,Retail,SMB (1-50),2022-06-04,UK,contact108@saasmaster.com,1170,38.43626806833114
+cust_000109,SaasMaster 109,Education,SMB (1-50),2024-07-16,France,contact109@techcorp.com,397,13.042049934296976
+cust_000110,SaasMaster 110,Technology,SMB (1-50),2023-04-15,US,contact110@saasmaster.com,855,28.088042049934295
+cust_000111,ScaleWorks 111,Media,SMB (1-50),2022-04-18,US,contact111@scaleworks.com,1217,39.98028909329829
+cust_000112,DataFlow Inc 112,Healthcare,Enterprise (500+),2022-04-28,Germany,contact112@growthco.com,1207,39.65177398160315
+cust_000113,DevTools Inc 113,Retail,Enterprise (500+),2022-04-27,Canada,contact113@innovatelab.com,1208,39.68462549277267
+cust_000114,ScaleWorks 114,Technology,Enterprise (500+),2022-07-16,France,contact114@dataflow inc.com,1128,37.056504599211564
+cust_000115,TechCorp 115,Consulting,Mid-Market (51-500),2025-04-17,Germany,contact115@scaleworks.com,122,4.0078843626806835
+cust_000116,StartupHub 116,Manufacturing,Mid-Market (51-500),2022-09-07,US,contact116@devtools inc.com,1075,35.31537450722733
+cust_000117,GrowthCo 117,Manufacturing,Mid-Market (51-500),2023-01-19,France,contact117@techcorp.com,941,30.913272010512483
+cust_000118,ScaleWorks 118,Manufacturing,SMB (1-50),2022-09-16,US,contact118@saasmaster.com,1066,35.019710906701704
+cust_000119,SaasMaster 119,Finance,Mid-Market (51-500),2024-09-21,UK,contact119@devtools inc.com,330,10.840998685939553
+cust_000120,DataFlow Inc 120,Technology,Mid-Market (51-500),2023-01-20,Canada,contact120@growthco.com,940,30.880420499342968
+cust_000121,DataFlow Inc 121,Education,Enterprise (500+),2023-05-11,US,contact121@scaleworks.com,829,27.233902759526938
+cust_000122,StartupHub 122,Retail,Enterprise (500+),2023-03-27,UK,contact122@cloudtech.com,874,28.71222076215506
+cust_000123,CloudTech 123,Healthcare,Enterprise (500+),2023-12-23,UK,contact123@devtools inc.com,603,19.80946123521682
+cust_000124,CloudFirst 124,Retail,Mid-Market (51-500),2022-07-03,Australia,contact124@devtools inc.com,1141,37.483574244415244
+cust_000125,StartupHub 125,Retail,Mid-Market (51-500),2022-01-25,Germany,contact125@startuphub.com,1300,42.70696452036793
+cust_000126,CloudTech 126,Consulting,Mid-Market (51-500),2024-04-05,France,contact126@cloudtech.com,499,16.392904073587385
+cust_000127,DevTools Inc 127,Retail,Enterprise (500+),2022-01-01,France,contact127@saasmaster.com,1324,43.495400788436264
+cust_000128,SaasMaster 128,Consulting,SMB (1-50),2024-09-26,UK,contact128@dataflow inc.com,325,10.676741130091983
+cust_000129,StartupHub 129,Education,Mid-Market (51-500),2022-01-08,Canada,contact129@innovatelab.com,1317,43.26544021024967
+cust_000130,InnovateLab 130,Consulting,Enterprise (500+),2022-06-17,US,contact130@dataflow inc.com,1157,38.009198423127465
+cust_000131,TechCorp 131,Healthcare,Enterprise (500+),2024-12-13,Australia,contact131@techcorp.com,247,8.114323258869907
+cust_000132,StartupHub 132,Consulting,Mid-Market (51-500),2023-05-29,UK,contact132@cloudtech.com,811,26.642575558475688
+cust_000133,CloudFirst 133,Healthcare,Enterprise (500+),2024-10-01,Australia,contact133@cloudfirst.com,320,10.512483574244415
+cust_000134,TechCorp 134,Manufacturing,Mid-Market (51-500),2023-02-28,US,contact134@dataflow inc.com,901,29.59921156373193
+cust_000135,GrowthCo 135,Healthcare,SMB (1-50),2024-12-10,US,contact135@dataflow inc.com,250,8.21287779237845
+cust_000136,DevTools Inc 136,Education,Mid-Market (51-500),2024-04-26,Australia,contact136@scaleworks.com,478,15.703022339027594
+cust_000137,TechCorp 137,Media,Enterprise (500+),2022-03-29,Australia,contact137@scaleworks.com,1237,40.63731931668857
+cust_000138,CloudTech 138,Healthcare,Enterprise (500+),2022-10-08,Canada,contact138@scaleworks.com,1044,34.2969776609724
+cust_000139,DataFlow Inc 139,Consulting,SMB (1-50),2022-03-12,Germany,contact139@saasmaster.com,1254,41.1957950065703
+cust_000140,InnovateLab 140,Consulting,Enterprise (500+),2022-02-14,US,contact140@cloudfirst.com,1280,42.04993429697766
+cust_000141,ScaleWorks 141,Manufacturing,SMB (1-50),2023-03-31,UK,contact141@devtools inc.com,870,28.580814717477004
+cust_000142,ScaleWorks 142,Finance,Mid-Market (51-500),2022-02-06,UK,contact142@saasmaster.com,1288,42.31274638633377
+cust_000143,TechCorp 143,Healthcare,Mid-Market (51-500),2025-05-07,Australia,contact143@saasmaster.com,102,3.350854139290407
+cust_000144,DevTools Inc 144,Media,SMB (1-50),2022-03-16,France,contact144@cloudfirst.com,1250,41.06438896189225
+cust_000145,GrowthCo 145,Finance,SMB (1-50),2025-04-01,US,contact145@cloudfirst.com,138,4.533508541392904
+cust_000146,CloudFirst 146,Healthcare,Enterprise (500+),2022-11-18,France,contact146@devtools inc.com,1003,32.95006570302234
+cust_000147,DataFlow Inc 147,Education,Mid-Market (51-500),2024-03-21,Australia,contact147@techcorp.com,514,16.88567674113009
+cust_000148,DataFlow Inc 148,Manufacturing,Mid-Market (51-500),2022-12-24,Canada,contact148@techcorp.com,967,31.76741130091984
+cust_000149,SaasMaster 149,Manufacturing,Mid-Market (51-500),2023-09-10,Germany,contact149@cloudtech.com,707,23.226018396846253
+cust_000150,GrowthCo 150,Consulting,Mid-Market (51-500),2024-09-04,Canada,contact150@saasmaster.com,347,11.399474375821287
+cust_000151,CloudTech 151,Consulting,Mid-Market (51-500),2025-07-13,US,contact151@saasmaster.com,35,1.149802890932983
+cust_000152,DevTools Inc 152,Finance,Enterprise (500+),2025-04-01,Germany,contact152@saasmaster.com,138,4.533508541392904
+cust_000153,TechCorp 153,Consulting,Enterprise (500+),2022-05-05,Canada,contact153@devtools inc.com,1200,39.42181340341656
+cust_000154,TechCorp 154,Healthcare,Mid-Market (51-500),2024-09-16,UK,contact154@dataflow inc.com,335,11.005256241787121
+cust_000155,CloudFirst 155,Healthcare,SMB (1-50),2025-05-31,UK,contact155@dataflow inc.com,78,2.562417871222076
+cust_000156,GrowthCo 156,Consulting,SMB (1-50),2022-09-22,Australia,contact156@cloudtech.com,1060,34.82260183968462
+cust_000157,DevTools Inc 157,Technology,Enterprise (500+),2024-09-16,US,contact157@innovatelab.com,335,11.005256241787121
+cust_000158,GrowthCo 158,Media,SMB (1-50),2024-08-03,US,contact158@startuphub.com,379,12.450722733245728
+cust_000159,StartupHub 159,Retail,Mid-Market (51-500),2023-08-28,UK,contact159@cloudfirst.com,720,23.653088042049934
+cust_000160,InnovateLab 160,Retail,SMB (1-50),2022-11-15,Germany,contact160@scaleworks.com,1006,33.04862023653088
+cust_000161,StartupHub 161,Retail,Mid-Market (51-500),2024-05-17,Canada,contact161@saasmaster.com,457,15.013140604467806
+cust_000162,CloudTech 162,Finance,Mid-Market (51-500),2023-10-20,France,contact162@innovatelab.com,667,21.911957950065702
+cust_000163,CloudTech 163,Finance,Mid-Market (51-500),2023-09-15,Australia,contact163@growthco.com,702,23.061760840998684
+cust_000164,TechCorp 164,Finance,Mid-Market (51-500),2024-12-17,US,contact164@scaleworks.com,243,7.982917214191852
+cust_000165,StartupHub 165,Finance,Enterprise (500+),2023-12-23,UK,contact165@growthco.com,603,19.80946123521682
+cust_000166,CloudTech 166,Healthcare,Enterprise (500+),2023-01-11,Australia,contact166@saasmaster.com,949,31.176084099868593
+cust_000167,GrowthCo 167,Finance,Enterprise (500+),2024-04-20,France,contact167@cloudtech.com,484,15.900131406044677
+cust_000168,CloudFirst 168,Media,Mid-Market (51-500),2024-04-03,US,contact168@saasmaster.com,501,16.45860709592641
+cust_000169,InnovateLab 169,Manufacturing,SMB (1-50),2023-07-21,Australia,contact169@growthco.com,758,24.901445466491456
+cust_000170,CloudTech 170,Education,SMB (1-50),2025-01-04,Australia,contact170@devtools inc.com,225,7.391590013140604
+cust_000171,SaasMaster 171,Manufacturing,Mid-Market (51-500),2023-06-04,Canada,contact171@dataflow inc.com,805,26.445466491458607
+cust_000172,InnovateLab 172,Media,Mid-Market (51-500),2024-03-04,US,contact172@cloudtech.com,531,17.444152431011826
+cust_000173,GrowthCo 173,Education,SMB (1-50),2024-10-09,Germany,contact173@innovatelab.com,312,10.249671484888305
+cust_000174,InnovateLab 174,Education,Mid-Market (51-500),2024-06-18,US,contact174@innovatelab.com,425,13.961892247043364
+cust_000175,TechCorp 175,Healthcare,Mid-Market (51-500),2022-07-10,Germany,contact175@innovatelab.com,1134,37.253613666228645
+cust_000176,CloudTech 176,Healthcare,SMB (1-50),2024-06-25,UK,contact176@dataflow inc.com,418,13.731931668856767
+cust_000177,TechCorp 177,Media,Enterprise (500+),2025-08-11,UK,contact177@innovatelab.com,6,0.19710906701708278
+cust_000178,SaasMaster 178,Consulting,SMB (1-50),2022-12-07,Germany,contact178@scaleworks.com,984,32.32588699080158
+cust_000179,DevTools Inc 179,Healthcare,SMB (1-50),2023-04-01,UK,contact179@techcorp.com,869,28.54796320630749
+cust_000180,ScaleWorks 180,Finance,Enterprise (500+),2023-01-11,France,contact180@innovatelab.com,949,31.176084099868593
+cust_000181,ScaleWorks 181,Technology,Mid-Market (51-500),2023-07-04,UK,contact181@growthco.com,775,25.45992115637319
+cust_000182,GrowthCo 182,Finance,SMB (1-50),2025-04-24,Germany,contact182@techcorp.com,115,3.7779237844940865
+cust_000183,CloudTech 183,Technology,SMB (1-50),2023-12-19,US,contact183@scaleworks.com,607,19.940867279894874
+cust_000184,SaasMaster 184,Technology,SMB (1-50),2023-03-03,France,contact184@growthco.com,898,29.50065703022339
+cust_000185,DataFlow Inc 185,Retail,SMB (1-50),2025-05-23,Germany,contact185@devtools inc.com,86,2.8252299605781865
+cust_000186,GrowthCo 186,Education,Mid-Market (51-500),2025-05-12,UK,contact186@saasmaster.com,97,3.1865965834428382
+cust_000187,SaasMaster 187,Education,Enterprise (500+),2023-12-03,Germany,contact187@dataflow inc.com,623,20.466491458607095
+cust_000188,StartupHub 188,Consulting,SMB (1-50),2025-01-08,Australia,contact188@cloudtech.com,221,7.260183968462549
+cust_000189,CloudTech 189,Consulting,SMB (1-50),2022-10-02,France,contact189@innovatelab.com,1050,34.49408672798948
+cust_000190,CloudFirst 190,Healthcare,Enterprise (500+),2024-01-02,Germany,contact190@cloudfirst.com,593,19.48094612352168
+cust_000191,GrowthCo 191,Education,Enterprise (500+),2024-10-30,France,contact191@innovatelab.com,291,9.559789750328514
+cust_000192,GrowthCo 192,Consulting,Enterprise (500+),2024-06-14,US,contact192@dataflow inc.com,429,14.09329829172142
+cust_000193,ScaleWorks 193,Consulting,Mid-Market (51-500),2024-03-03,Germany,contact193@devtools inc.com,532,17.47700394218134
+cust_000194,SaasMaster 194,Healthcare,Enterprise (500+),2025-01-16,UK,contact194@cloudfirst.com,213,6.9973718791064385
+cust_000195,ScaleWorks 195,Media,SMB (1-50),2025-06-10,Canada,contact195@cloudfirst.com,68,2.2339027595269383
+cust_000196,DataFlow Inc 196,Technology,SMB (1-50),2023-09-06,US,contact196@growthco.com,711,23.35742444152431
+cust_000197,DataFlow Inc 197,Finance,Mid-Market (51-500),2024-06-22,UK,contact197@cloudfirst.com,421,13.830486202365309
+cust_000198,DevTools Inc 198,Finance,Mid-Market (51-500),2023-12-28,UK,contact198@cloudfirst.com,598,19.64520367936925
+cust_000199,StartupHub 199,Education,SMB (1-50),2025-06-18,UK,contact199@dataflow inc.com,60,1.9710906701708277
+cust_000200,DataFlow Inc 200,Healthcare,SMB (1-50),2023-07-19,Australia,contact200@innovatelab.com,760,24.967148488830485
+cust_000201,TechCorp 201,Healthcare,Mid-Market (51-500),2024-10-30,Germany,contact201@innovatelab.com,291,9.559789750328514
+cust_000202,ScaleWorks 202,Technology,Enterprise (500+),2024-08-24,US,contact202@techcorp.com,358,11.76084099868594
+cust_000203,TechCorp 203,Education,Enterprise (500+),2023-08-17,UK,contact203@dataflow inc.com,731,24.014454664914584
+cust_000204,InnovateLab 204,Healthcare,Mid-Market (51-500),2024-10-07,US,contact204@dataflow inc.com,314,10.315374507227332
+cust_000205,DevTools Inc 205,Technology,SMB (1-50),2023-07-30,US,contact205@devtools inc.com,749,24.605781865965834
+cust_000206,StartupHub 206,Finance,Mid-Market (51-500),2023-02-08,Australia,contact206@cloudfirst.com,921,30.256241787122207
+cust_000207,TechCorp 207,Finance,SMB (1-50),2022-03-29,Australia,contact207@startuphub.com,1237,40.63731931668857
+cust_000208,DataFlow Inc 208,Healthcare,SMB (1-50),2024-01-10,US,contact208@startuphub.com,585,19.21813403416557
+cust_000209,InnovateLab 209,Retail,SMB (1-50),2023-08-11,Australia,contact209@devtools inc.com,737,24.21156373193167
+cust_000210,CloudFirst 210,Media,SMB (1-50),2022-12-27,France,contact210@techcorp.com,964,31.6688567674113
+cust_000211,DataFlow Inc 211,Manufacturing,Mid-Market (51-500),2022-03-10,Germany,contact211@devtools inc.com,1256,41.26149802890933
+cust_000212,InnovateLab 212,Consulting,SMB (1-50),2024-06-20,Germany,contact212@innovatelab.com,423,13.896189224704337
+cust_000213,DataFlow Inc 213,Retail,SMB (1-50),2022-05-10,France,contact213@scaleworks.com,1195,39.25755584756899
+cust_000214,SaasMaster 214,Retail,SMB (1-50),2023-02-09,US,contact214@growthco.com,920,30.223390275952692
+cust_000215,CloudFirst 215,Retail,SMB (1-50),2023-05-11,Canada,contact215@cloudfirst.com,829,27.233902759526938
+cust_000216,ScaleWorks 216,Manufacturing,Enterprise (500+),2022-05-12,Canada,contact216@cloudtech.com,1193,39.19185282522996
+cust_000217,CloudFirst 217,Healthcare,SMB (1-50),2022-10-19,Australia,contact217@cloudfirst.com,1033,33.93561103810775
+cust_000218,ScaleWorks 218,Education,Enterprise (500+),2023-03-09,Canada,contact218@dataflow inc.com,892,29.303547963206306
+cust_000219,CloudTech 219,Consulting,SMB (1-50),2024-04-29,France,contact219@startuphub.com,475,15.604467805519054
+cust_000220,StartupHub 220,Healthcare,Mid-Market (51-500),2024-07-19,UK,contact220@scaleworks.com,394,12.943495400788436
+cust_000221,TechCorp 221,Technology,Mid-Market (51-500),2023-02-21,US,contact221@dataflow inc.com,908,29.829172141918527
+cust_000222,GrowthCo 222,Manufacturing,SMB (1-50),2024-04-15,Australia,contact222@devtools inc.com,489,16.064388961892245
+cust_000223,ScaleWorks 223,Retail,SMB (1-50),2022-01-03,Australia,contact223@startuphub.com,1322,43.42969776609724
+cust_000224,CloudFirst 224,Manufacturing,SMB (1-50),2025-06-30,Australia,contact224@devtools inc.com,48,1.5768725361366622
+cust_000225,ScaleWorks 225,Media,SMB (1-50),2022-10-18,Germany,contact225@cloudfirst.com,1034,33.96846254927726
+cust_000226,DevTools Inc 226,Media,Enterprise (500+),2025-02-15,Canada,contact226@growthco.com,183,6.011826544021025
+cust_000227,StartupHub 227,Media,Enterprise (500+),2024-12-11,Australia,contact227@growthco.com,249,8.180026281208935
+cust_000228,GrowthCo 228,Consulting,SMB (1-50),2022-01-10,UK,contact228@techcorp.com,1315,43.19973718791064
+cust_000229,SaasMaster 229,Retail,Enterprise (500+),2025-03-02,Germany,contact229@saasmaster.com,168,5.519053876478318
+cust_000230,DevTools Inc 230,Technology,Enterprise (500+),2025-03-08,Australia,contact230@cloudfirst.com,162,5.321944809461235
+cust_000231,CloudFirst 231,Education,Enterprise (500+),2022-02-06,UK,contact231@cloudtech.com,1288,42.31274638633377
+cust_000232,InnovateLab 232,Education,SMB (1-50),2023-03-06,France,contact232@startuphub.com,895,29.402102496714846
+cust_000233,DevTools Inc 233,Manufacturing,Enterprise (500+),2024-10-29,US,contact233@dataflow inc.com,292,9.592641261498029
+cust_000234,GrowthCo 234,Media,SMB (1-50),2022-05-15,France,contact234@growthco.com,1190,39.09329829172142
+cust_000235,SaasMaster 235,Technology,Enterprise (500+),2024-08-17,Germany,contact235@techcorp.com,365,11.990801576872535
+cust_000236,DataFlow Inc 236,Healthcare,Enterprise (500+),2024-04-19,US,contact236@cloudfirst.com,485,15.932982917214192
+cust_000237,CloudTech 237,Retail,Enterprise (500+),2024-11-20,Canada,contact237@dataflow inc.com,270,8.869908015768726
+cust_000238,DataFlow Inc 238,Retail,SMB (1-50),2023-11-24,Canada,contact238@scaleworks.com,632,20.76215505913272
+cust_000239,CloudTech 239,Manufacturing,Mid-Market (51-500),2022-10-01,Germany,contact239@cloudfirst.com,1051,34.526938239159
+cust_000240,InnovateLab 240,Media,Mid-Market (51-500),2023-04-11,Germany,contact240@dataflow inc.com,859,28.21944809461235
+cust_000241,SaasMaster 241,Consulting,Enterprise (500+),2023-06-15,Germany,contact241@startuphub.com,794,26.084099868593952
+cust_000242,TechCorp 242,Media,Enterprise (500+),2022-12-06,Australia,contact242@cloudtech.com,985,32.35873850197109
+cust_000243,InnovateLab 243,Healthcare,Mid-Market (51-500),2024-09-21,Australia,contact243@cloudtech.com,330,10.840998685939553
+cust_000244,CloudFirst 244,Consulting,Mid-Market (51-500),2024-09-15,US,contact244@cloudtech.com,336,11.038107752956636
+cust_000245,DataFlow Inc 245,Manufacturing,Enterprise (500+),2023-12-09,Germany,contact245@growthco.com,617,20.269382391590014
+cust_000246,TechCorp 246,Finance,SMB (1-50),2024-12-09,Canada,contact246@techcorp.com,251,8.245729303547963
+cust_000247,InnovateLab 247,Finance,Mid-Market (51-500),2025-03-23,US,contact247@startuphub.com,147,4.829172141918528
+cust_000248,CloudTech 248,Technology,SMB (1-50),2023-07-27,France,contact248@innovatelab.com,752,24.704336399474375
+cust_000249,GrowthCo 249,Manufacturing,Enterprise (500+),2025-02-21,Australia,contact249@growthco.com,177,5.814717477003942
+cust_000250,ScaleWorks 250,Manufacturing,SMB (1-50),2022-02-13,Canada,contact250@saasmaster.com,1281,42.08278580814717
+cust_000251,DataFlow Inc 251,Retail,Mid-Market (51-500),2022-04-21,France,contact251@cloudfirst.com,1214,39.88173455978975
+cust_000252,TechCorp 252,Manufacturing,Enterprise (500+),2022-04-04,UK,contact252@cloudfirst.com,1231,40.44021024967148
+cust_000253,TechCorp 253,Manufacturing,Enterprise (500+),2022-02-03,Canada,contact253@saasmaster.com,1291,42.41130091984231
+cust_000254,SaasMaster 254,Technology,Enterprise (500+),2023-11-17,Canada,contact254@saasmaster.com,639,20.992115637319316
+cust_000255,SaasMaster 255,Technology,Enterprise (500+),2023-04-08,Canada,contact255@growthco.com,862,28.318002628120894
+cust_000256,CloudTech 256,Technology,SMB (1-50),2025-08-04,Australia,contact256@innovatelab.com,13,0.42706964520367935
+cust_000257,CloudFirst 257,Retail,Mid-Market (51-500),2022-06-06,Germany,contact257@startuphub.com,1168,38.370565045992116
+cust_000258,ScaleWorks 258,Technology,Enterprise (500+),2024-12-31,France,contact258@techcorp.com,229,7.522996057818659
+cust_000259,TechCorp 259,Healthcare,Mid-Market (51-500),2025-08-13,UK,contact259@dataflow inc.com,4,0.1314060446780552
+cust_000260,CloudTech 260,Manufacturing,Enterprise (500+),2022-12-22,France,contact260@scaleworks.com,969,31.83311432325887
+cust_000261,StartupHub 261,Manufacturing,Enterprise (500+),2022-02-22,Germany,contact261@growthco.com,1272,41.78712220762155
+cust_000262,StartupHub 262,Finance,Mid-Market (51-500),2023-03-27,Australia,contact262@techcorp.com,874,28.71222076215506
+cust_000263,StartupHub 263,Consulting,Mid-Market (51-500),2024-12-18,Canada,contact263@techcorp.com,242,7.9500657030223385
+cust_000264,StartupHub 264,Technology,Mid-Market (51-500),2024-07-30,Canada,contact264@cloudtech.com,383,12.582128777923783
+cust_000265,GrowthCo 265,Finance,SMB (1-50),2024-06-25,France,contact265@dataflow inc.com,418,13.731931668856767
+cust_000266,StartupHub 266,Healthcare,SMB (1-50),2022-04-09,UK,contact266@cloudfirst.com,1226,40.27595269382392
+cust_000267,DevTools Inc 267,Consulting,Mid-Market (51-500),2024-08-05,Germany,contact267@saasmaster.com,377,12.3850197109067
+cust_000268,CloudFirst 268,Education,Enterprise (500+),2024-12-10,Germany,contact268@cloudtech.com,250,8.21287779237845
+cust_000269,DataFlow Inc 269,Education,Mid-Market (51-500),2022-06-15,France,contact269@cloudtech.com,1159,38.07490144546649
+cust_000270,DataFlow Inc 270,Consulting,Mid-Market (51-500),2023-10-13,US,contact270@saasmaster.com,674,22.141918528252297
+cust_000271,DataFlow Inc 271,Healthcare,SMB (1-50),2022-08-19,Canada,contact271@techcorp.com,1094,35.939553219448094
+cust_000272,DataFlow Inc 272,Consulting,Enterprise (500+),2024-12-30,Germany,contact272@dataflow inc.com,230,7.555847568988173
+cust_000273,SaasMaster 273,Technology,Enterprise (500+),2024-05-18,France,contact273@dataflow inc.com,456,14.98028909329829
+cust_000274,GrowthCo 274,Finance,SMB (1-50),2025-08-10,Australia,contact274@innovatelab.com,7,0.22996057818659657
+cust_000275,CloudFirst 275,Consulting,Mid-Market (51-500),2022-06-10,UK,contact275@cloudfirst.com,1164,38.23915900131406
+cust_000276,ScaleWorks 276,Healthcare,SMB (1-50),2025-04-08,Canada,contact276@innovatelab.com,131,4.303547963206308
+cust_000277,TechCorp 277,Retail,Mid-Market (51-500),2022-05-08,Australia,contact277@cloudtech.com,1197,39.32325886990802
+cust_000278,CloudTech 278,Consulting,SMB (1-50),2022-07-28,Australia,contact278@growthco.com,1116,36.662286465177395
+cust_000279,InnovateLab 279,Finance,SMB (1-50),2022-02-09,Germany,contact279@techcorp.com,1285,42.21419185282523
+cust_000280,CloudFirst 280,Retail,Enterprise (500+),2025-07-22,Australia,contact280@saasmaster.com,26,0.8541392904073587
+cust_000281,InnovateLab 281,Media,Enterprise (500+),2023-07-02,France,contact281@cloudtech.com,777,25.52562417871222
+cust_000282,GrowthCo 282,Finance,Enterprise (500+),2023-09-10,Germany,contact282@cloudfirst.com,707,23.226018396846253
+cust_000283,CloudTech 283,Consulting,SMB (1-50),2024-12-16,UK,contact283@cloudtech.com,244,8.015768725361367
+cust_000284,InnovateLab 284,Consulting,Mid-Market (51-500),2022-05-24,Germany,contact284@dataflow inc.com,1181,38.797634691195796
+cust_000285,TechCorp 285,Finance,Mid-Market (51-500),2023-12-12,Australia,contact285@scaleworks.com,614,20.17082785808147
+cust_000286,InnovateLab 286,Finance,Enterprise (500+),2023-01-12,Canada,contact286@cloudfirst.com,948,31.143232588699078
+cust_000287,TechCorp 287,Technology,Mid-Market (51-500),2022-07-16,UK,contact287@saasmaster.com,1128,37.056504599211564
+cust_000288,CloudFirst 288,Manufacturing,SMB (1-50),2022-11-15,Canada,contact288@innovatelab.com,1006,33.04862023653088
+cust_000289,CloudTech 289,Technology,Mid-Market (51-500),2022-01-22,Canada,contact289@cloudtech.com,1303,42.80551905387647
+cust_000290,TechCorp 290,Healthcare,Enterprise (500+),2023-04-15,Australia,contact290@startuphub.com,855,28.088042049934295
+cust_000291,GrowthCo 291,Education,Enterprise (500+),2023-06-28,Canada,contact291@devtools inc.com,781,25.657030223390276
+cust_000292,GrowthCo 292,Retail,Mid-Market (51-500),2023-02-08,Australia,contact292@techcorp.com,921,30.256241787122207
+cust_000293,InnovateLab 293,Healthcare,SMB (1-50),2024-01-24,Canada,contact293@startuphub.com,571,18.758212877792378
+cust_000294,DevTools Inc 294,Healthcare,SMB (1-50),2022-10-14,US,contact294@saasmaster.com,1038,34.09986859395532
+cust_000295,SaasMaster 295,Retail,Mid-Market (51-500),2022-08-01,US,contact295@innovatelab.com,1112,36.530880420499344
+cust_000296,SaasMaster 296,Healthcare,Mid-Market (51-500),2022-03-31,UK,contact296@growthco.com,1235,40.57161629434954
+cust_000297,CloudFirst 297,Consulting,SMB (1-50),2022-01-07,UK,contact297@growthco.com,1318,43.29829172141918
+cust_000298,DataFlow Inc 298,Technology,Enterprise (500+),2022-01-07,US,contact298@growthco.com,1318,43.29829172141918
+cust_000299,CloudTech 299,Finance,SMB (1-50),2022-08-06,Canada,contact299@growthco.com,1107,36.366622864651774
+cust_000300,DevTools Inc 300,Technology,Enterprise (500+),2022-02-04,Canada,contact300@techcorp.com,1290,42.3784494086728
+cust_000301,SaasMaster 301,Media,Enterprise (500+),2022-10-27,US,contact301@techcorp.com,1025,33.67279894875164
+cust_000302,CloudTech 302,Media,SMB (1-50),2023-04-30,Canada,contact302@growthco.com,840,27.59526938239159
+cust_000303,DataFlow Inc 303,Consulting,Mid-Market (51-500),2022-11-05,Germany,contact303@devtools inc.com,1016,33.37713534822602
+cust_000304,SaasMaster 304,Finance,Enterprise (500+),2022-10-12,UK,contact304@startuphub.com,1040,34.16557161629435
+cust_000305,TechCorp 305,Education,Enterprise (500+),2024-04-16,UK,contact305@techcorp.com,488,16.031537450722734
+cust_000306,SaasMaster 306,Media,Mid-Market (51-500),2022-12-09,US,contact306@innovatelab.com,982,32.26018396846255
+cust_000307,TechCorp 307,Education,Enterprise (500+),2023-09-27,Canada,contact307@growthco.com,690,22.667542706964518
+cust_000308,DevTools Inc 308,Healthcare,Mid-Market (51-500),2025-03-14,Australia,contact308@cloudfirst.com,156,5.124835742444152
+cust_000309,DevTools Inc 309,Healthcare,SMB (1-50),2022-12-28,Canada,contact309@scaleworks.com,963,31.636005256241784
+cust_000310,InnovateLab 310,Finance,Enterprise (500+),2022-12-30,US,contact310@innovatelab.com,961,31.57030223390276
+cust_000311,GrowthCo 311,Media,SMB (1-50),2024-11-13,France,contact311@cloudfirst.com,277,9.099868593955321
+cust_000312,ScaleWorks 312,Finance,SMB (1-50),2025-06-17,UK,contact312@devtools inc.com,61,2.0039421813403417
+cust_000313,DevTools Inc 313,Manufacturing,SMB (1-50),2022-06-09,Germany,contact313@innovatelab.com,1165,38.272010512483575
+cust_000314,StartupHub 314,Technology,Enterprise (500+),2024-12-08,Canada,contact314@growthco.com,252,8.278580814717477
+cust_000315,InnovateLab 315,Manufacturing,Enterprise (500+),2023-10-10,Germany,contact315@growthco.com,677,22.24047306176084
+cust_000316,SaasMaster 316,Education,Enterprise (500+),2024-10-16,Australia,contact316@startuphub.com,305,10.019710906701707
+cust_000317,StartupHub 317,Consulting,Enterprise (500+),2024-01-03,Canada,contact317@devtools inc.com,592,19.44809461235217
+cust_000318,CloudFirst 318,Finance,SMB (1-50),2024-10-26,US,contact318@dataflow inc.com,295,9.69119579500657
+cust_000319,DevTools Inc 319,Media,Mid-Market (51-500),2023-10-11,UK,contact319@scaleworks.com,676,22.207621550591327
+cust_000320,ScaleWorks 320,Consulting,Mid-Market (51-500),2022-05-28,Australia,contact320@cloudtech.com,1177,38.66622864651774
+cust_000321,CloudTech 321,Finance,Mid-Market (51-500),2025-07-27,France,contact321@saasmaster.com,21,0.6898817345597897
+cust_000322,DevTools Inc 322,Finance,Mid-Market (51-500),2023-01-02,Canada,contact322@cloudtech.com,958,31.471747700394218
+cust_000323,CloudTech 323,Education,Mid-Market (51-500),2023-04-20,Canada,contact323@dataflow inc.com,850,27.92378449408673
+cust_000324,CloudFirst 324,Technology,SMB (1-50),2025-06-30,France,contact324@dataflow inc.com,48,1.5768725361366622
+cust_000325,DataFlow Inc 325,Consulting,SMB (1-50),2025-08-10,France,contact325@techcorp.com,7,0.22996057818659657
+cust_000326,ScaleWorks 326,Technology,Enterprise (500+),2023-02-25,France,contact326@scaleworks.com,904,29.69776609724047
+cust_000327,CloudFirst 327,Finance,Enterprise (500+),2023-11-19,Canada,contact327@devtools inc.com,637,20.92641261498029
+cust_000328,CloudFirst 328,Media,Mid-Market (51-500),2022-12-03,Australia,contact328@innovatelab.com,988,32.45729303547963
+cust_000329,ScaleWorks 329,Finance,Enterprise (500+),2023-01-18,Germany,contact329@cloudfirst.com,942,30.946123521681997
+cust_000330,SaasMaster 330,Retail,Enterprise (500+),2023-04-12,UK,contact330@cloudtech.com,858,28.18659658344284
+cust_000331,ScaleWorks 331,Finance,SMB (1-50),2023-08-10,Germany,contact331@scaleworks.com,738,24.24441524310118
+cust_000332,TechCorp 332,Consulting,Mid-Market (51-500),2023-02-21,France,contact332@devtools inc.com,908,29.829172141918527
+cust_000333,GrowthCo 333,Healthcare,Mid-Market (51-500),2024-02-22,US,contact333@innovatelab.com,542,17.805519053876477
+cust_000334,TechCorp 334,Manufacturing,Mid-Market (51-500),2023-09-01,UK,contact334@techcorp.com,716,23.52168199737188
+cust_000335,GrowthCo 335,Technology,Enterprise (500+),2024-11-13,Canada,contact335@techcorp.com,277,9.099868593955321
+cust_000336,ScaleWorks 336,Technology,Mid-Market (51-500),2023-01-29,Canada,contact336@cloudfirst.com,931,30.584756898817343
+cust_000337,CloudTech 337,Media,Enterprise (500+),2022-10-13,UK,contact337@devtools inc.com,1039,34.13272010512483
+cust_000338,TechCorp 338,Manufacturing,Mid-Market (51-500),2024-08-31,UK,contact338@innovatelab.com,351,11.530880420499342
+cust_000339,ScaleWorks 339,Finance,SMB (1-50),2023-04-18,US,contact339@techcorp.com,852,27.989487516425754
+cust_000340,DevTools Inc 340,Consulting,SMB (1-50),2023-01-18,Germany,contact340@innovatelab.com,942,30.946123521681997
+cust_000341,ScaleWorks 341,Technology,Enterprise (500+),2024-03-26,France,contact341@devtools inc.com,509,16.72141918528252
+cust_000342,InnovateLab 342,Education,Enterprise (500+),2022-03-17,Canada,contact342@scaleworks.com,1249,41.03153745072273
+cust_000343,SaasMaster 343,Finance,Enterprise (500+),2025-01-06,Germany,contact343@devtools inc.com,223,7.3258869908015765
+cust_000344,InnovateLab 344,Finance,SMB (1-50),2022-04-07,France,contact344@scaleworks.com,1228,40.34165571616294
+cust_000345,InnovateLab 345,Consulting,Enterprise (500+),2023-07-13,Germany,contact345@cloudtech.com,766,25.164257555847566
+cust_000346,DataFlow Inc 346,Media,SMB (1-50),2023-10-17,France,contact346@techcorp.com,670,22.010512483574242
+cust_000347,DevTools Inc 347,Healthcare,SMB (1-50),2022-07-29,US,contact347@scaleworks.com,1115,36.629434954007884
+cust_000348,TechCorp 348,Consulting,Mid-Market (51-500),2022-07-01,US,contact348@innovatelab.com,1143,37.54927726675427
+cust_000349,StartupHub 349,Finance,Enterprise (500+),2024-05-08,Canada,contact349@cloudfirst.com,466,15.308804204993429
+cust_000350,TechCorp 350,Retail,Mid-Market (51-500),2022-03-06,Germany,contact350@saasmaster.com,1260,41.39290407358738
+cust_000351,SaasMaster 351,Manufacturing,Enterprise (500+),2025-03-19,France,contact351@innovatelab.com,151,4.9605781865965834
+cust_000352,GrowthCo 352,Education,SMB (1-50),2024-08-26,Canada,contact352@dataflow inc.com,356,11.695137976346912
+cust_000353,GrowthCo 353,Manufacturing,Mid-Market (51-500),2024-04-07,Australia,contact353@startuphub.com,497,16.327201051248355
+cust_000354,DevTools Inc 354,Education,SMB (1-50),2025-06-17,US,contact354@cloudtech.com,61,2.0039421813403417
+cust_000355,GrowthCo 355,Media,Enterprise (500+),2023-03-23,France,contact355@startuphub.com,878,28.843626806833115
+cust_000356,GrowthCo 356,Consulting,SMB (1-50),2022-12-06,US,contact356@innovatelab.com,985,32.35873850197109
+cust_000357,StartupHub 357,Finance,Enterprise (500+),2024-11-30,Australia,contact357@startuphub.com,260,8.541392904073588
+cust_000358,DevTools Inc 358,Healthcare,Mid-Market (51-500),2023-09-29,Australia,contact358@cloudtech.com,688,22.601839684625492
+cust_000359,DataFlow Inc 359,Media,Enterprise (500+),2023-08-03,US,contact359@cloudfirst.com,745,24.47437582128778
+cust_000360,SaasMaster 360,Retail,Enterprise (500+),2025-03-11,UK,contact360@dataflow inc.com,159,5.223390275952694
+cust_000361,ScaleWorks 361,Manufacturing,Mid-Market (51-500),2022-11-20,France,contact361@cloudfirst.com,1001,32.88436268068331
+cust_000362,SaasMaster 362,Technology,Mid-Market (51-500),2024-11-23,UK,contact362@innovatelab.com,267,8.771353482260183
+cust_000363,TechCorp 363,Media,Enterprise (500+),2025-07-15,Australia,contact363@saasmaster.com,33,1.0840998685939554
+cust_000364,CloudFirst 364,Media,SMB (1-50),2023-10-01,Australia,contact364@techcorp.com,686,22.536136662286463
+cust_000365,DevTools Inc 365,Education,Enterprise (500+),2023-04-10,France,contact365@devtools inc.com,860,28.252299605781864
+cust_000366,DevTools Inc 366,Healthcare,Enterprise (500+),2023-01-20,Canada,contact366@cloudtech.com,940,30.880420499342968
+cust_000367,DataFlow Inc 367,Manufacturing,Enterprise (500+),2022-10-08,US,contact367@saasmaster.com,1044,34.2969776609724
+cust_000368,CloudFirst 368,Media,Mid-Market (51-500),2023-09-14,France,contact368@cloudfirst.com,703,23.0946123521682
+cust_000369,CloudFirst 369,Media,Mid-Market (51-500),2022-03-17,France,contact369@startuphub.com,1249,41.03153745072273
+cust_000370,CloudTech 370,Finance,Mid-Market (51-500),2022-03-05,Australia,contact370@dataflow inc.com,1261,41.4257555847569
+cust_000371,SaasMaster 371,Media,Enterprise (500+),2022-04-22,France,contact371@saasmaster.com,1213,39.84888304862024
+cust_000372,GrowthCo 372,Consulting,SMB (1-50),2024-11-10,Australia,contact372@cloudtech.com,280,9.198423127463863
+cust_000373,SaasMaster 373,Technology,Enterprise (500+),2024-03-02,UK,contact373@dataflow inc.com,533,17.509855453350852
+cust_000374,InnovateLab 374,Healthcare,Mid-Market (51-500),2023-01-30,France,contact374@devtools inc.com,930,30.55190538764783
+cust_000375,ScaleWorks 375,Consulting,SMB (1-50),2024-04-12,Germany,contact375@devtools inc.com,492,16.16294349540079
+cust_000376,ScaleWorks 376,Media,SMB (1-50),2022-02-28,Australia,contact376@cloudfirst.com,1266,41.59001314060447
+cust_000377,StartupHub 377,Healthcare,Mid-Market (51-500),2022-09-11,Germany,contact377@dataflow inc.com,1071,35.183968462549274
+cust_000378,CloudFirst 378,Finance,Enterprise (500+),2022-06-20,France,contact378@scaleworks.com,1154,37.91064388961892
+cust_000379,CloudFirst 379,Media,SMB (1-50),2022-03-31,Canada,contact379@growthco.com,1235,40.57161629434954
+cust_000380,DataFlow Inc 380,Technology,SMB (1-50),2025-03-26,Germany,contact380@dataflow inc.com,144,4.730617608409987
+cust_000381,SaasMaster 381,Technology,SMB (1-50),2024-01-03,Germany,contact381@dataflow inc.com,592,19.44809461235217
+cust_000382,StartupHub 382,Technology,SMB (1-50),2024-03-20,Canada,contact382@growthco.com,515,16.918528252299605
+cust_000383,StartupHub 383,Media,Enterprise (500+),2025-05-19,Australia,contact383@devtools inc.com,90,2.9566360052562417
+cust_000384,GrowthCo 384,Technology,SMB (1-50),2023-03-02,Canada,contact384@dataflow inc.com,899,29.5335085413929
+cust_000385,ScaleWorks 385,Media,SMB (1-50),2023-04-30,France,contact385@growthco.com,840,27.59526938239159
+cust_000386,StartupHub 386,Manufacturing,Enterprise (500+),2022-10-02,France,contact386@saasmaster.com,1050,34.49408672798948
+cust_000387,GrowthCo 387,Finance,SMB (1-50),2024-05-25,UK,contact387@techcorp.com,449,14.750328515111695
+cust_000388,InnovateLab 388,Media,SMB (1-50),2022-05-26,Canada,contact388@innovatelab.com,1179,38.73193166885677
+cust_000389,DataFlow Inc 389,Manufacturing,Mid-Market (51-500),2023-04-18,Canada,contact389@saasmaster.com,852,27.989487516425754
+cust_000390,DevTools Inc 390,Media,Enterprise (500+),2023-05-23,US,contact390@cloudfirst.com,817,26.839684625492772
+cust_000391,InnovateLab 391,Education,SMB (1-50),2025-02-06,Australia,contact391@scaleworks.com,192,6.307490144546649
+cust_000392,ScaleWorks 392,Manufacturing,SMB (1-50),2023-12-09,Australia,contact392@cloudfirst.com,617,20.269382391590014
+cust_000393,DataFlow Inc 393,Consulting,SMB (1-50),2024-04-21,France,contact393@devtools inc.com,483,15.867279894875164
+cust_000394,StartupHub 394,Media,Mid-Market (51-500),2022-10-14,Canada,contact394@growthco.com,1038,34.09986859395532
+cust_000395,InnovateLab 395,Technology,SMB (1-50),2023-12-23,UK,contact395@cloudtech.com,603,19.80946123521682
+cust_000396,CloudTech 396,Education,Enterprise (500+),2024-08-14,UK,contact396@techcorp.com,368,12.089356110381077
+cust_000397,ScaleWorks 397,Consulting,SMB (1-50),2023-04-30,UK,contact397@techcorp.com,840,27.59526938239159
+cust_000398,CloudTech 398,Healthcare,SMB (1-50),2022-06-20,Australia,contact398@saasmaster.com,1154,37.91064388961892
+cust_000399,DataFlow Inc 399,Finance,Enterprise (500+),2024-10-20,UK,contact399@devtools inc.com,301,9.888304862023652
+cust_000400,SaasMaster 400,Media,Mid-Market (51-500),2022-08-05,UK,contact400@techcorp.com,1108,36.399474375821285
+cust_000401,StartupHub 401,Finance,SMB (1-50),2024-09-11,France,contact401@saasmaster.com,340,11.169513797634691
+cust_000402,SaasMaster 402,Healthcare,Enterprise (500+),2024-07-04,US,contact402@cloudfirst.com,409,13.436268068331144
+cust_000403,CloudFirst 403,Healthcare,SMB (1-50),2025-02-23,Germany,contact403@cloudfirst.com,175,5.7490144546649145
+cust_000404,TechCorp 404,Media,Mid-Market (51-500),2025-07-12,Canada,contact404@dataflow inc.com,36,1.1826544021024967
+cust_000405,GrowthCo 405,Manufacturing,Enterprise (500+),2023-04-19,UK,contact405@cloudfirst.com,851,27.95663600525624
+cust_000406,StartupHub 406,Retail,Enterprise (500+),2023-09-21,UK,contact406@innovatelab.com,696,22.864651773981603
+cust_000407,DataFlow Inc 407,Education,Enterprise (500+),2022-08-15,Canada,contact407@techcorp.com,1098,36.070959264126145
+cust_000408,DevTools Inc 408,Healthcare,SMB (1-50),2023-11-24,Canada,contact408@growthco.com,632,20.76215505913272
+cust_000409,SaasMaster 409,Education,SMB (1-50),2022-10-14,Germany,contact409@growthco.com,1038,34.09986859395532
+cust_000410,InnovateLab 410,Retail,SMB (1-50),2022-01-11,Australia,contact410@growthco.com,1314,43.16688567674113
+cust_000411,DataFlow Inc 411,Media,Enterprise (500+),2024-06-02,Australia,contact411@cloudtech.com,441,14.487516425755585
+cust_000412,SaasMaster 412,Media,SMB (1-50),2023-05-19,US,contact412@dataflow inc.com,821,26.971090670170828
+cust_000413,SaasMaster 413,Healthcare,Mid-Market (51-500),2022-01-31,France,contact413@techcorp.com,1294,42.50985545335085
+cust_000414,CloudFirst 414,Technology,Enterprise (500+),2024-02-25,Australia,contact414@cloudtech.com,539,17.706964520367936
+cust_000415,InnovateLab 415,Media,Mid-Market (51-500),2025-03-12,UK,contact415@innovatelab.com,158,5.19053876478318
+cust_000416,DataFlow Inc 416,Healthcare,SMB (1-50),2022-08-14,Germany,contact416@innovatelab.com,1099,36.10381077529566
+cust_000417,DevTools Inc 417,Technology,Mid-Market (51-500),2025-03-20,UK,contact417@growthco.com,150,4.92772667542707
+cust_000418,StartupHub 418,Media,Mid-Market (51-500),2024-07-24,Australia,contact418@saasmaster.com,389,12.779237844940866
+cust_000419,SaasMaster 419,Manufacturing,Mid-Market (51-500),2022-01-14,Australia,contact419@innovatelab.com,1311,43.068331143232584
+cust_000420,GrowthCo 420,Education,Enterprise (500+),2022-10-13,Germany,contact420@devtools inc.com,1039,34.13272010512483
+cust_000421,CloudFirst 421,Education,Enterprise (500+),2022-07-14,France,contact421@innovatelab.com,1130,37.12220762155059
+cust_000422,GrowthCo 422,Retail,SMB (1-50),2024-05-27,Germany,contact422@startuphub.com,447,14.684625492772668
+cust_000423,SaasMaster 423,Consulting,SMB (1-50),2023-03-01,France,contact423@dataflow inc.com,900,29.566360052562416
+cust_000424,SaasMaster 424,Media,Mid-Market (51-500),2025-01-21,US,contact424@techcorp.com,208,6.83311432325887
+cust_000425,TechCorp 425,Healthcare,Mid-Market (51-500),2024-12-22,Canada,contact425@innovatelab.com,238,7.818659658344283
+cust_000426,InnovateLab 426,Finance,SMB (1-50),2022-06-19,Australia,contact426@cloudtech.com,1155,37.943495400788436
+cust_000427,GrowthCo 427,Finance,Mid-Market (51-500),2023-11-06,US,contact427@startuphub.com,650,21.353482260183966
+cust_000428,SaasMaster 428,Education,Mid-Market (51-500),2024-07-21,France,contact428@cloudtech.com,392,12.877792378449408
+cust_000429,DataFlow Inc 429,Consulting,Enterprise (500+),2025-03-19,US,contact429@devtools inc.com,151,4.9605781865965834
+cust_000430,InnovateLab 430,Healthcare,SMB (1-50),2024-08-13,Canada,contact430@innovatelab.com,369,12.12220762155059
+cust_000431,StartupHub 431,Retail,Mid-Market (51-500),2023-10-20,Australia,contact431@devtools inc.com,667,21.911957950065702
+cust_000432,DataFlow Inc 432,Manufacturing,SMB (1-50),2024-08-02,UK,contact432@growthco.com,380,12.483574244415243
+cust_000433,SaasMaster 433,Media,SMB (1-50),2022-09-27,France,contact433@cloudtech.com,1055,34.65834428383705
+cust_000434,SaasMaster 434,Manufacturing,Mid-Market (51-500),2022-07-07,France,contact434@saasmaster.com,1137,37.352168199737186
+cust_000435,StartupHub 435,Technology,Mid-Market (51-500),2023-07-23,Germany,contact435@techcorp.com,756,24.83574244415243
+cust_000436,StartupHub 436,Media,Enterprise (500+),2023-06-29,US,contact436@innovatelab.com,780,25.62417871222076
+cust_000437,TechCorp 437,Finance,Enterprise (500+),2023-10-13,US,contact437@scaleworks.com,674,22.141918528252297
+cust_000438,GrowthCo 438,Consulting,Mid-Market (51-500),2023-02-17,Australia,contact438@cloudtech.com,912,29.96057818659658
+cust_000439,CloudTech 439,Consulting,SMB (1-50),2023-04-02,Canada,contact439@saasmaster.com,868,28.515111695137975
+cust_000440,StartupHub 440,Manufacturing,Enterprise (500+),2022-10-17,Australia,contact440@innovatelab.com,1035,34.00131406044678
+cust_000441,CloudFirst 441,Retail,Enterprise (500+),2022-01-29,Canada,contact441@dataflow inc.com,1296,42.57555847568988
+cust_000442,ScaleWorks 442,Finance,SMB (1-50),2024-11-15,Australia,contact442@techcorp.com,275,9.034165571616294
+cust_000443,StartupHub 443,Consulting,SMB (1-50),2025-04-27,US,contact443@devtools inc.com,112,3.679369250985545
+cust_000444,DataFlow Inc 444,Healthcare,Enterprise (500+),2023-10-15,France,contact444@dataflow inc.com,672,22.07621550591327
+cust_000445,CloudTech 445,Retail,Mid-Market (51-500),2023-08-04,France,contact445@scaleworks.com,744,24.441524310118265
+cust_000446,ScaleWorks 446,Retail,Enterprise (500+),2023-01-29,Australia,contact446@scaleworks.com,931,30.584756898817343
+cust_000447,SaasMaster 447,Retail,Enterprise (500+),2022-09-01,US,contact447@growthco.com,1081,35.51248357424441
+cust_000448,DevTools Inc 448,Media,Mid-Market (51-500),2024-03-28,Australia,contact448@innovatelab.com,507,16.655716162943495
+cust_000449,CloudTech 449,Media,SMB (1-50),2024-01-10,France,contact449@cloudfirst.com,585,19.21813403416557
+cust_000450,CloudTech 450,Consulting,Enterprise (500+),2025-01-24,US,contact450@growthco.com,205,6.734559789750328
+cust_000451,SaasMaster 451,Education,SMB (1-50),2025-07-12,Australia,contact451@scaleworks.com,36,1.1826544021024967
+cust_000452,InnovateLab 452,Retail,SMB (1-50),2023-12-20,Canada,contact452@techcorp.com,606,19.90801576872536
+cust_000453,SaasMaster 453,Manufacturing,SMB (1-50),2024-05-27,Australia,contact453@dataflow inc.com,447,14.684625492772668
+cust_000454,GrowthCo 454,Technology,SMB (1-50),2022-12-21,UK,contact454@devtools inc.com,970,31.865965834428383
+cust_000455,GrowthCo 455,Manufacturing,Mid-Market (51-500),2023-05-27,Australia,contact455@saasmaster.com,813,26.708278580814717
+cust_000456,CloudFirst 456,Healthcare,Mid-Market (51-500),2025-06-10,France,contact456@innovatelab.com,68,2.2339027595269383
+cust_000457,DevTools Inc 457,Technology,Enterprise (500+),2022-07-30,US,contact457@devtools inc.com,1114,36.596583442838366
+cust_000458,CloudFirst 458,Media,Enterprise (500+),2022-10-17,France,contact458@scaleworks.com,1035,34.00131406044678
+cust_000459,TechCorp 459,Manufacturing,Mid-Market (51-500),2023-05-13,Canada,contact459@scaleworks.com,827,27.16819973718791
+cust_000460,SaasMaster 460,Manufacturing,Enterprise (500+),2024-11-20,US,contact460@techcorp.com,270,8.869908015768726
+cust_000461,ScaleWorks 461,Healthcare,SMB (1-50),2022-07-25,Germany,contact461@scaleworks.com,1119,36.760840998685936
+cust_000462,DataFlow Inc 462,Finance,Mid-Market (51-500),2023-11-23,Australia,contact462@saasmaster.com,633,20.795006570302235
+cust_000463,SaasMaster 463,Media,SMB (1-50),2025-03-21,Germany,contact463@scaleworks.com,149,4.894875164257556
+cust_000464,DataFlow Inc 464,Finance,Enterprise (500+),2022-06-19,US,contact464@scaleworks.com,1155,37.943495400788436
+cust_000465,ScaleWorks 465,Manufacturing,Enterprise (500+),2024-02-05,US,contact465@techcorp.com,559,18.363994743758212
+cust_000466,DevTools Inc 466,Manufacturing,Enterprise (500+),2022-04-03,Australia,contact466@dataflow inc.com,1232,40.473061760841
+cust_000467,TechCorp 467,Manufacturing,Mid-Market (51-500),2023-06-28,UK,contact467@saasmaster.com,781,25.657030223390276
+cust_000468,InnovateLab 468,Education,Enterprise (500+),2023-02-08,Australia,contact468@growthco.com,921,30.256241787122207
+cust_000469,DataFlow Inc 469,Consulting,Mid-Market (51-500),2022-09-28,Canada,contact469@cloudtech.com,1054,34.62549277266754
+cust_000470,DataFlow Inc 470,Manufacturing,Enterprise (500+),2025-02-08,Canada,contact470@scaleworks.com,190,6.241787122207621
+cust_000471,GrowthCo 471,Technology,SMB (1-50),2023-07-08,Germany,contact471@dataflow inc.com,771,25.328515111695136
+cust_000472,GrowthCo 472,Healthcare,Enterprise (500+),2025-06-09,UK,contact472@cloudtech.com,69,2.266754270696452
+cust_000473,ScaleWorks 473,Finance,Mid-Market (51-500),2023-07-08,Germany,contact473@startuphub.com,771,25.328515111695136
+cust_000474,CloudFirst 474,Consulting,Mid-Market (51-500),2024-11-11,UK,contact474@devtools inc.com,279,9.165571616294349
+cust_000475,InnovateLab 475,Technology,SMB (1-50),2022-07-23,UK,contact475@saasmaster.com,1121,36.826544021024965
+cust_000476,DataFlow Inc 476,Technology,SMB (1-50),2022-02-21,Australia,contact476@growthco.com,1273,41.81997371879106
+cust_000477,CloudTech 477,Technology,Enterprise (500+),2022-09-19,US,contact477@dataflow inc.com,1063,34.92115637319316
+cust_000478,InnovateLab 478,Finance,Enterprise (500+),2023-11-14,US,contact478@cloudfirst.com,642,21.090670170827856
+cust_000479,CloudTech 479,Finance,Enterprise (500+),2023-09-30,Germany,contact479@saasmaster.com,687,22.568988173455978
+cust_000480,ScaleWorks 480,Education,SMB (1-50),2023-10-08,Australia,contact480@devtools inc.com,679,22.306176084099867
+cust_000481,GrowthCo 481,Technology,Enterprise (500+),2025-01-30,UK,contact481@devtools inc.com,199,6.5374507227332455
+cust_000482,CloudTech 482,Retail,SMB (1-50),2025-01-20,US,contact482@scaleworks.com,209,6.865965834428383
+cust_000483,SaasMaster 483,Education,Enterprise (500+),2024-10-05,UK,contact483@techcorp.com,316,10.38107752956636
+cust_000484,InnovateLab 484,Retail,SMB (1-50),2023-08-05,Germany,contact484@dataflow inc.com,743,24.40867279894875
+cust_000485,InnovateLab 485,Consulting,SMB (1-50),2024-07-09,US,contact485@saasmaster.com,404,13.272010512483574
+cust_000486,CloudFirst 486,Retail,Mid-Market (51-500),2023-12-04,France,contact486@growthco.com,622,20.43363994743758
+cust_000487,TechCorp 487,Retail,SMB (1-50),2024-11-10,Canada,contact487@techcorp.com,280,9.198423127463863
+cust_000488,CloudTech 488,Technology,Enterprise (500+),2025-08-07,UK,contact488@techcorp.com,10,0.328515111695138
+cust_000489,SaasMaster 489,Finance,SMB (1-50),2022-11-12,Canada,contact489@dataflow inc.com,1009,33.14717477003942
+cust_000490,CloudFirst 490,Finance,Enterprise (500+),2024-10-15,Australia,contact490@saasmaster.com,306,10.052562417871222
+cust_000491,DataFlow Inc 491,Media,Mid-Market (51-500),2023-05-18,Australia,contact491@dataflow inc.com,822,27.003942181340342
+cust_000492,TechCorp 492,Consulting,SMB (1-50),2024-07-03,Germany,contact492@growthco.com,410,13.469119579500656
+cust_000493,CloudFirst 493,Education,SMB (1-50),2022-02-08,Germany,contact493@innovatelab.com,1286,42.24704336399474
+cust_000494,InnovateLab 494,Media,Enterprise (500+),2022-12-31,Canada,contact494@dataflow inc.com,960,31.537450722733244
+cust_000495,DataFlow Inc 495,Education,Mid-Market (51-500),2022-07-25,Canada,contact495@techcorp.com,1119,36.760840998685936
+cust_000496,DataFlow Inc 496,Finance,SMB (1-50),2023-08-20,Canada,contact496@growthco.com,728,23.915900131406044
+cust_000497,SaasMaster 497,Technology,SMB (1-50),2023-08-27,US,contact497@devtools inc.com,721,23.68593955321945
+cust_000498,TechCorp 498,Technology,SMB (1-50),2023-01-08,Australia,contact498@growthco.com,952,31.274638633377133
+cust_000499,GrowthCo 499,Education,Mid-Market (51-500),2024-07-19,UK,contact499@scaleworks.com,394,12.943495400788436
+cust_000500,TechCorp 500,Technology,SMB (1-50),2022-06-07,Germany,contact500@cloudfirst.com,1167,38.3377135348226
+cust_000501,DataFlow Inc 501,Manufacturing,Enterprise (500+),2023-04-11,UK,contact501@dataflow inc.com,859,28.21944809461235
+cust_000502,InnovateLab 502,Manufacturing,Enterprise (500+),2022-08-12,UK,contact502@growthco.com,1101,36.16951379763469
+cust_000503,CloudTech 503,Education,Mid-Market (51-500),2024-05-01,Australia,contact503@dataflow inc.com,473,15.538764783180026
+cust_000504,TechCorp 504,Media,SMB (1-50),2022-11-16,Canada,contact504@saasmaster.com,1005,33.01576872536137
+cust_000505,CloudTech 505,Education,Enterprise (500+),2022-12-07,France,contact505@saasmaster.com,984,32.32588699080158
+cust_000506,GrowthCo 506,Healthcare,Mid-Market (51-500),2024-04-28,France,contact506@growthco.com,476,15.637319316688567
+cust_000507,ScaleWorks 507,Education,Enterprise (500+),2022-05-19,Australia,contact507@cloudfirst.com,1186,38.96189224704336
+cust_000508,SaasMaster 508,Finance,Mid-Market (51-500),2023-11-21,UK,contact508@saasmaster.com,635,20.86070959264126
+cust_000509,TechCorp 509,Finance,SMB (1-50),2024-11-17,Australia,contact509@devtools inc.com,273,8.968462549277266
+cust_000510,GrowthCo 510,Retail,Enterprise (500+),2025-03-10,UK,contact510@growthco.com,160,5.256241787122208
+cust_000511,StartupHub 511,Finance,SMB (1-50),2023-07-23,Germany,contact511@startuphub.com,756,24.83574244415243
+cust_000512,TechCorp 512,Consulting,SMB (1-50),2023-08-28,US,contact512@devtools inc.com,720,23.653088042049934
+cust_000513,CloudFirst 513,Technology,Mid-Market (51-500),2025-04-15,Germany,contact513@cloudtech.com,124,4.073587385019711
+cust_000514,InnovateLab 514,Retail,Enterprise (500+),2022-06-17,France,contact514@scaleworks.com,1157,38.009198423127465
+cust_000515,GrowthCo 515,Manufacturing,SMB (1-50),2025-04-26,Germany,contact515@saasmaster.com,113,3.712220762155059
+cust_000516,InnovateLab 516,Technology,SMB (1-50),2023-10-04,France,contact516@startuphub.com,683,22.437582128777922
+cust_000517,TechCorp 517,Finance,Enterprise (500+),2024-12-18,Germany,contact517@growthco.com,242,7.9500657030223385
+cust_000518,TechCorp 518,Healthcare,SMB (1-50),2025-04-19,Germany,contact518@cloudtech.com,120,3.9421813403416555
+cust_000519,TechCorp 519,Media,SMB (1-50),2024-02-19,Germany,contact519@cloudtech.com,545,17.904073587385017
+cust_000520,DataFlow Inc 520,Healthcare,Mid-Market (51-500),2022-06-26,Australia,contact520@cloudtech.com,1148,37.71353482260184
+cust_000521,TechCorp 521,Consulting,Enterprise (500+),2023-06-23,Australia,contact521@innovatelab.com,786,25.821287779237842
+cust_000522,CloudFirst 522,Education,SMB (1-50),2022-05-25,Germany,contact522@startuphub.com,1180,38.76478318002628
+cust_000523,TechCorp 523,Consulting,Enterprise (500+),2024-12-03,Australia,contact523@scaleworks.com,257,8.442838370565045
+cust_000524,GrowthCo 524,Media,Mid-Market (51-500),2023-11-27,US,contact524@techcorp.com,629,20.66360052562418
+cust_000525,CloudTech 525,Media,Mid-Market (51-500),2023-09-21,Canada,contact525@devtools inc.com,696,22.864651773981603
+cust_000526,CloudFirst 526,Finance,SMB (1-50),2023-02-24,Canada,contact526@cloudtech.com,905,29.730617608409986
+cust_000527,DevTools Inc 527,Technology,Mid-Market (51-500),2025-05-24,Germany,contact527@techcorp.com,85,2.7923784494086727
+cust_000528,ScaleWorks 528,Retail,SMB (1-50),2025-05-03,France,contact528@innovatelab.com,106,3.4822601839684624
+cust_000529,DevTools Inc 529,Technology,Enterprise (500+),2025-01-20,Australia,contact529@saasmaster.com,209,6.865965834428383
+cust_000530,CloudTech 530,Retail,Mid-Market (51-500),2025-08-04,France,contact530@innovatelab.com,13,0.42706964520367935
+cust_000531,DevTools Inc 531,Consulting,Enterprise (500+),2024-11-17,France,contact531@scaleworks.com,273,8.968462549277266
+cust_000532,DevTools Inc 532,Education,Enterprise (500+),2025-07-30,Canada,contact532@techcorp.com,18,0.5913272010512484
+cust_000533,CloudFirst 533,Manufacturing,SMB (1-50),2022-07-05,Australia,contact533@growthco.com,1139,37.417871222076215
+cust_000534,TechCorp 534,Healthcare,SMB (1-50),2023-06-19,France,contact534@cloudtech.com,790,25.952693823915897
+cust_000535,SaasMaster 535,Education,Mid-Market (51-500),2023-01-19,Germany,contact535@startuphub.com,941,30.913272010512483
+cust_000536,ScaleWorks 536,Retail,Mid-Market (51-500),2024-11-10,Australia,contact536@growthco.com,280,9.198423127463863
+cust_000537,ScaleWorks 537,Education,Enterprise (500+),2025-04-24,UK,contact537@saasmaster.com,115,3.7779237844940865
+cust_000538,DataFlow Inc 538,Consulting,SMB (1-50),2022-11-10,Germany,contact538@saasmaster.com,1011,33.21287779237845
+cust_000539,InnovateLab 539,Healthcare,SMB (1-50),2023-07-21,Germany,contact539@dataflow inc.com,758,24.901445466491456
+cust_000540,InnovateLab 540,Consulting,Mid-Market (51-500),2023-05-19,France,contact540@dataflow inc.com,821,26.971090670170828
+cust_000541,DataFlow Inc 541,Manufacturing,SMB (1-50),2022-04-23,UK,contact541@scaleworks.com,1212,39.81603153745072
+cust_000542,SaasMaster 542,Retail,SMB (1-50),2022-01-12,UK,contact542@saasmaster.com,1313,43.13403416557161
+cust_000543,CloudTech 543,Media,Enterprise (500+),2025-05-17,US,contact543@cloudtech.com,92,3.0223390275952693
+cust_000544,DevTools Inc 544,Manufacturing,SMB (1-50),2024-11-08,US,contact544@startuphub.com,282,9.264126149802891
+cust_000545,CloudFirst 545,Finance,SMB (1-50),2022-10-22,Australia,contact545@innovatelab.com,1030,33.83705650459921
+cust_000546,SaasMaster 546,Consulting,SMB (1-50),2025-03-23,Australia,contact546@devtools inc.com,147,4.829172141918528
+cust_000547,StartupHub 547,Consulting,Enterprise (500+),2022-04-26,UK,contact547@dataflow inc.com,1209,39.71747700394218
+cust_000548,ScaleWorks 548,Retail,Mid-Market (51-500),2022-10-21,US,contact548@growthco.com,1031,33.86990801576872
+cust_000549,StartupHub 549,Consulting,SMB (1-50),2023-08-06,US,contact549@dataflow inc.com,742,24.375821287779235
+cust_000550,SaasMaster 550,Healthcare,SMB (1-50),2024-03-11,Canada,contact550@scaleworks.com,524,17.21419185282523
+cust_000551,DataFlow Inc 551,Media,SMB (1-50),2024-03-01,Germany,contact551@saasmaster.com,534,17.542706964520367
+cust_000552,GrowthCo 552,Retail,SMB (1-50),2023-07-02,UK,contact552@cloudfirst.com,777,25.52562417871222
+cust_000553,GrowthCo 553,Consulting,Mid-Market (51-500),2022-12-27,Germany,contact553@saasmaster.com,964,31.6688567674113
+cust_000554,ScaleWorks 554,Media,SMB (1-50),2024-11-24,US,contact554@growthco.com,266,8.73850197109067
+cust_000555,StartupHub 555,Media,Enterprise (500+),2023-12-06,UK,contact555@cloudtech.com,620,20.367936925098554
+cust_000556,ScaleWorks 556,Media,Enterprise (500+),2024-10-03,Germany,contact556@devtools inc.com,318,10.446780551905388
+cust_000557,StartupHub 557,Education,Enterprise (500+),2024-02-28,US,contact557@scaleworks.com,536,17.608409986859396
+cust_000558,GrowthCo 558,Education,SMB (1-50),2024-09-22,France,contact558@startuphub.com,329,10.808147174770038
+cust_000559,CloudFirst 559,Media,Enterprise (500+),2025-03-09,UK,contact559@dataflow inc.com,161,5.289093298291721
+cust_000560,SaasMaster 560,Media,SMB (1-50),2025-02-08,UK,contact560@cloudtech.com,190,6.241787122207621
+cust_000561,DataFlow Inc 561,Technology,Enterprise (500+),2024-12-18,Germany,contact561@growthco.com,242,7.9500657030223385
+cust_000562,InnovateLab 562,Healthcare,SMB (1-50),2024-06-11,UK,contact562@techcorp.com,432,14.19185282522996
+cust_000563,InnovateLab 563,Consulting,SMB (1-50),2024-03-03,Germany,contact563@saasmaster.com,532,17.47700394218134
+cust_000564,CloudTech 564,Technology,Enterprise (500+),2025-06-15,UK,contact564@techcorp.com,63,2.0696452036793693
+cust_000565,SaasMaster 565,Manufacturing,SMB (1-50),2025-06-04,Canada,contact565@cloudtech.com,74,2.431011826544021
+cust_000566,ScaleWorks 566,Consulting,Enterprise (500+),2023-04-25,UK,contact566@cloudfirst.com,845,27.75952693823916
+cust_000567,ScaleWorks 567,Finance,Enterprise (500+),2023-03-03,US,contact567@dataflow inc.com,898,29.50065703022339
+cust_000568,SaasMaster 568,Technology,Mid-Market (51-500),2022-12-23,France,contact568@devtools inc.com,968,31.800262812089354
+cust_000569,DataFlow Inc 569,Manufacturing,Enterprise (500+),2022-03-08,UK,contact569@cloudtech.com,1258,41.32720105124836
+cust_000570,StartupHub 570,Education,SMB (1-50),2022-02-13,Australia,contact570@devtools inc.com,1281,42.08278580814717
+cust_000571,InnovateLab 571,Manufacturing,Enterprise (500+),2024-09-13,Canada,contact571@innovatelab.com,338,11.103810775295663
+cust_000572,DevTools Inc 572,Education,Mid-Market (51-500),2022-02-16,Germany,contact572@techcorp.com,1278,41.98423127463863
+cust_000573,TechCorp 573,Technology,Enterprise (500+),2025-07-08,UK,contact573@cloudtech.com,40,1.314060446780552
+cust_000574,TechCorp 574,Technology,Mid-Market (51-500),2023-10-16,France,contact574@dataflow inc.com,671,22.043363994743757
+cust_000575,DevTools Inc 575,Education,SMB (1-50),2024-03-28,US,contact575@devtools inc.com,507,16.655716162943495
+cust_000576,SaasMaster 576,Healthcare,SMB (1-50),2025-02-17,France,contact576@devtools inc.com,181,5.946123521681997
+cust_000577,InnovateLab 577,Retail,Enterprise (500+),2025-04-10,Germany,contact577@scaleworks.com,129,4.23784494086728
+cust_000578,TechCorp 578,Education,Enterprise (500+),2023-05-09,UK,contact578@saasmaster.com,831,27.299605781865964
+cust_000579,CloudFirst 579,Technology,SMB (1-50),2022-01-11,Canada,contact579@innovatelab.com,1314,43.16688567674113
+cust_000580,TechCorp 580,Consulting,SMB (1-50),2022-05-12,US,contact580@cloudtech.com,1193,39.19185282522996
+cust_000581,CloudFirst 581,Consulting,Enterprise (500+),2022-10-31,Canada,contact581@saasmaster.com,1021,33.54139290407359
+cust_000582,InnovateLab 582,Media,Enterprise (500+),2023-03-09,Canada,contact582@cloudfirst.com,892,29.303547963206306
+cust_000583,SaasMaster 583,Healthcare,Enterprise (500+),2022-04-05,Canada,contact583@startuphub.com,1230,40.40735873850197
+cust_000584,CloudFirst 584,Finance,Enterprise (500+),2023-01-25,Germany,contact584@devtools inc.com,935,30.716162943495398
+cust_000585,DataFlow Inc 585,Education,Enterprise (500+),2023-11-07,Australia,contact585@growthco.com,649,21.320630749014455
+cust_000586,CloudFirst 586,Finance,Mid-Market (51-500),2024-08-21,Germany,contact586@cloudfirst.com,361,11.85939553219448
+cust_000587,SaasMaster 587,Education,Enterprise (500+),2023-10-14,UK,contact587@startuphub.com,673,22.109067017082786
+cust_000588,SaasMaster 588,Media,Mid-Market (51-500),2024-02-02,UK,contact588@devtools inc.com,562,18.462549277266753
+cust_000589,SaasMaster 589,Consulting,Enterprise (500+),2024-09-22,France,contact589@devtools inc.com,329,10.808147174770038
+cust_000590,TechCorp 590,Finance,Mid-Market (51-500),2023-11-28,Germany,contact590@cloudtech.com,628,20.630749014454665
+cust_000591,GrowthCo 591,Retail,Enterprise (500+),2024-05-29,Canada,contact591@startuphub.com,445,14.61892247043364
+cust_000592,StartupHub 592,Media,SMB (1-50),2024-06-27,France,contact592@startuphub.com,416,13.66622864651774
+cust_000593,DevTools Inc 593,Technology,Enterprise (500+),2024-12-28,UK,contact593@scaleworks.com,232,7.621550591327201
+cust_000594,DataFlow Inc 594,Media,SMB (1-50),2025-01-18,UK,contact594@dataflow inc.com,211,6.931668856767411
+cust_000595,DevTools Inc 595,Manufacturing,Mid-Market (51-500),2024-03-02,UK,contact595@scaleworks.com,533,17.509855453350852
+cust_000596,ScaleWorks 596,Media,SMB (1-50),2024-09-30,US,contact596@cloudtech.com,321,10.545335085413928
+cust_000597,SaasMaster 597,Finance,Mid-Market (51-500),2023-06-14,UK,contact597@startuphub.com,795,26.116951379763467
+cust_000598,InnovateLab 598,Education,Enterprise (500+),2025-06-24,France,contact598@cloudfirst.com,54,1.773981603153745
+cust_000599,CloudFirst 599,Education,SMB (1-50),2022-09-15,Germany,contact599@cloudfirst.com,1067,35.05256241787122
+cust_000600,GrowthCo 600,Finance,SMB (1-50),2024-11-23,Australia,contact600@devtools inc.com,267,8.771353482260183
+cust_000601,SaasMaster 601,Education,SMB (1-50),2024-04-22,Germany,contact601@devtools inc.com,482,15.83442838370565
+cust_000602,StartupHub 602,Retail,SMB (1-50),2023-11-23,Australia,contact602@saasmaster.com,633,20.795006570302235
+cust_000603,ScaleWorks 603,Finance,Enterprise (500+),2024-10-19,France,contact603@cloudtech.com,302,9.921156373193167
+cust_000604,ScaleWorks 604,Consulting,Mid-Market (51-500),2023-10-06,US,contact604@devtools inc.com,681,22.371879106438897
+cust_000605,CloudTech 605,Finance,Enterprise (500+),2025-01-12,Germany,contact605@dataflow inc.com,217,7.128777923784494
+cust_000606,CloudTech 606,Healthcare,SMB (1-50),2024-02-23,Canada,contact606@dataflow inc.com,541,17.772667542706962
+cust_000607,TechCorp 607,Retail,Mid-Market (51-500),2024-08-26,France,contact607@cloudfirst.com,356,11.695137976346912
+cust_000608,DataFlow Inc 608,Healthcare,SMB (1-50),2023-07-30,Canada,contact608@saasmaster.com,749,24.605781865965834
+cust_000609,InnovateLab 609,Finance,Enterprise (500+),2023-09-06,Canada,contact609@cloudtech.com,711,23.35742444152431
+cust_000610,CloudFirst 610,Retail,SMB (1-50),2024-07-12,Canada,contact610@techcorp.com,401,13.173455978975033
+cust_000611,SaasMaster 611,Healthcare,Enterprise (500+),2024-03-12,Australia,contact611@cloudfirst.com,523,17.181340341655716
+cust_000612,TechCorp 612,Consulting,Mid-Market (51-500),2025-05-12,Australia,contact612@startuphub.com,97,3.1865965834428382
+cust_000613,CloudTech 613,Consulting,SMB (1-50),2025-06-10,Canada,contact613@saasmaster.com,68,2.2339027595269383
+cust_000614,InnovateLab 614,Technology,Enterprise (500+),2024-09-27,France,contact614@cloudfirst.com,324,10.64388961892247
+cust_000615,CloudTech 615,Education,Mid-Market (51-500),2023-04-27,UK,contact615@dataflow inc.com,843,27.69382391590013
+cust_000616,TechCorp 616,Technology,Mid-Market (51-500),2025-05-23,Germany,contact616@devtools inc.com,86,2.8252299605781865
+cust_000617,ScaleWorks 617,Healthcare,Mid-Market (51-500),2024-02-03,France,contact617@innovatelab.com,561,18.429697766097238
+cust_000618,CloudFirst 618,Media,Enterprise (500+),2022-03-25,Australia,contact618@cloudfirst.com,1241,40.76872536136662
+cust_000619,ScaleWorks 619,Retail,Enterprise (500+),2024-10-24,US,contact619@growthco.com,297,9.756898817345597
+cust_000620,InnovateLab 620,Education,SMB (1-50),2025-01-23,France,contact620@techcorp.com,206,6.767411300919842
+cust_000621,ScaleWorks 621,Consulting,Enterprise (500+),2025-05-27,UK,contact621@cloudtech.com,82,2.6938239159001314
+cust_000622,CloudTech 622,Retail,Enterprise (500+),2022-06-29,US,contact622@devtools inc.com,1145,37.614980289093296
+cust_000623,DevTools Inc 623,Manufacturing,Mid-Market (51-500),2025-05-12,France,contact623@innovatelab.com,97,3.1865965834428382
+cust_000624,DevTools Inc 624,Retail,Enterprise (500+),2023-10-12,US,contact624@cloudfirst.com,675,22.174770039421812
+cust_000625,TechCorp 625,Consulting,Mid-Market (51-500),2022-06-26,France,contact625@innovatelab.com,1148,37.71353482260184
+cust_000626,ScaleWorks 626,Finance,SMB (1-50),2024-03-22,Germany,contact626@scaleworks.com,513,16.852825229960576
+cust_000627,CloudFirst 627,Consulting,SMB (1-50),2022-10-20,Australia,contact627@devtools inc.com,1032,33.90275952693824
+cust_000628,CloudTech 628,Media,Enterprise (500+),2024-12-22,US,contact628@startuphub.com,238,7.818659658344283
+cust_000629,DataFlow Inc 629,Finance,Enterprise (500+),2024-11-23,US,contact629@techcorp.com,267,8.771353482260183
+cust_000630,SaasMaster 630,Technology,Mid-Market (51-500),2022-02-14,US,contact630@devtools inc.com,1280,42.04993429697766
+cust_000631,DevTools Inc 631,Retail,Enterprise (500+),2024-04-16,Germany,contact631@cloudfirst.com,488,16.031537450722734
+cust_000632,CloudFirst 632,Technology,Enterprise (500+),2023-09-25,Australia,contact632@cloudtech.com,692,22.733245729303547
+cust_000633,GrowthCo 633,Healthcare,SMB (1-50),2023-07-13,France,contact633@scaleworks.com,766,25.164257555847566
+cust_000634,CloudFirst 634,Manufacturing,Enterprise (500+),2023-12-29,Canada,contact634@dataflow inc.com,597,19.612352168199735
+cust_000635,SaasMaster 635,Healthcare,Mid-Market (51-500),2024-02-25,US,contact635@dataflow inc.com,539,17.706964520367936
+cust_000636,InnovateLab 636,Media,SMB (1-50),2024-01-15,Australia,contact636@scaleworks.com,580,19.053876478318003
+cust_000637,SaasMaster 637,Consulting,Enterprise (500+),2024-04-18,France,contact637@techcorp.com,486,15.965834428383705
+cust_000638,ScaleWorks 638,Finance,Enterprise (500+),2024-07-26,Germany,contact638@growthco.com,387,12.713534822601838
+cust_000639,DataFlow Inc 639,Media,Mid-Market (51-500),2023-09-30,Canada,contact639@dataflow inc.com,687,22.568988173455978
+cust_000640,CloudFirst 640,Manufacturing,Enterprise (500+),2024-07-26,Germany,contact640@techcorp.com,387,12.713534822601838
+cust_000641,ScaleWorks 641,Healthcare,Mid-Market (51-500),2023-01-16,Canada,contact641@techcorp.com,944,31.011826544021023
+cust_000642,CloudFirst 642,Manufacturing,SMB (1-50),2024-01-28,Australia,contact642@dataflow inc.com,567,18.626806833114323
+cust_000643,StartupHub 643,Healthcare,SMB (1-50),2024-10-10,Germany,contact643@saasmaster.com,311,10.21681997371879
+cust_000644,GrowthCo 644,Manufacturing,Enterprise (500+),2022-08-08,Canada,contact644@scaleworks.com,1105,36.300919842312744
+cust_000645,DataFlow Inc 645,Manufacturing,SMB (1-50),2025-03-01,Canada,contact645@growthco.com,169,5.551905387647832
+cust_000646,ScaleWorks 646,Retail,SMB (1-50),2022-02-03,Australia,contact646@startuphub.com,1291,42.41130091984231
+cust_000647,InnovateLab 647,Technology,Mid-Market (51-500),2022-05-15,US,contact647@saasmaster.com,1190,39.09329829172142
+cust_000648,InnovateLab 648,Finance,Mid-Market (51-500),2023-08-15,Germany,contact648@devtools inc.com,733,24.080157687253614
+cust_000649,DevTools Inc 649,Consulting,Enterprise (500+),2023-08-10,UK,contact649@cloudfirst.com,738,24.24441524310118
+cust_000650,InnovateLab 650,Technology,Mid-Market (51-500),2024-08-15,UK,contact650@techcorp.com,367,12.056504599211562
+cust_000651,CloudTech 651,Manufacturing,Mid-Market (51-500),2025-01-15,Germany,contact651@scaleworks.com,214,7.030223390275952
+cust_000652,CloudFirst 652,Retail,Mid-Market (51-500),2025-03-31,US,contact652@techcorp.com,139,4.566360052562418
+cust_000653,GrowthCo 653,Retail,Mid-Market (51-500),2025-06-18,US,contact653@saasmaster.com,60,1.9710906701708277
+cust_000654,DevTools Inc 654,Consulting,Enterprise (500+),2025-01-29,Germany,contact654@dataflow inc.com,200,6.570302233902759
+cust_000655,TechCorp 655,Education,Enterprise (500+),2022-04-19,Germany,contact655@startuphub.com,1216,39.94743758212878
+cust_000656,ScaleWorks 656,Manufacturing,Mid-Market (51-500),2025-03-29,Germany,contact656@cloudtech.com,141,4.6320630749014455
+cust_000657,GrowthCo 657,Retail,Mid-Market (51-500),2024-09-06,Germany,contact657@scaleworks.com,345,11.333771353482259
+cust_000658,StartupHub 658,Consulting,Mid-Market (51-500),2023-09-20,Australia,contact658@cloudfirst.com,697,22.897503285151117
+cust_000659,StartupHub 659,Healthcare,Mid-Market (51-500),2025-01-19,Germany,contact659@innovatelab.com,210,6.898817345597897
+cust_000660,SaasMaster 660,Manufacturing,SMB (1-50),2023-04-21,UK,contact660@startuphub.com,849,27.890932982917214
+cust_000661,DataFlow Inc 661,Manufacturing,Enterprise (500+),2025-01-01,Canada,contact661@dataflow inc.com,228,7.490144546649145
+cust_000662,DataFlow Inc 662,Manufacturing,Mid-Market (51-500),2023-05-13,Canada,contact662@innovatelab.com,827,27.16819973718791
+cust_000663,DataFlow Inc 663,Retail,Enterprise (500+),2023-11-12,UK,contact663@devtools inc.com,644,21.156373193166885
+cust_000664,TechCorp 664,Manufacturing,Mid-Market (51-500),2022-01-25,Germany,contact664@dataflow inc.com,1300,42.70696452036793
+cust_000665,SaasMaster 665,Consulting,Enterprise (500+),2024-10-03,Australia,contact665@innovatelab.com,318,10.446780551905388
+cust_000666,CloudFirst 666,Healthcare,SMB (1-50),2022-07-07,UK,contact666@startuphub.com,1137,37.352168199737186
+cust_000667,DataFlow Inc 667,Healthcare,Mid-Market (51-500),2022-07-08,UK,contact667@devtools inc.com,1136,37.319316688567675
+cust_000668,InnovateLab 668,Finance,SMB (1-50),2023-03-16,UK,contact668@scaleworks.com,885,29.07358738501971
+cust_000669,DataFlow Inc 669,Retail,Mid-Market (51-500),2023-09-27,Australia,contact669@growthco.com,690,22.667542706964518
+cust_000670,CloudTech 670,Manufacturing,SMB (1-50),2024-11-05,France,contact670@techcorp.com,285,9.362680683311432
+cust_000671,ScaleWorks 671,Healthcare,Mid-Market (51-500),2023-07-10,UK,contact671@devtools inc.com,769,25.26281208935611
+cust_000672,InnovateLab 672,Healthcare,Mid-Market (51-500),2022-08-13,Canada,contact672@scaleworks.com,1100,36.136662286465175
+cust_000673,StartupHub 673,Retail,Enterprise (500+),2024-02-10,Germany,contact673@cloudtech.com,554,18.199737187910642
+cust_000674,StartupHub 674,Technology,Mid-Market (51-500),2023-07-26,UK,contact674@dataflow inc.com,753,24.73718791064389
+cust_000675,DevTools Inc 675,Manufacturing,Mid-Market (51-500),2023-06-14,Canada,contact675@growthco.com,795,26.116951379763467
+cust_000676,ScaleWorks 676,Manufacturing,Mid-Market (51-500),2022-06-14,UK,contact676@dataflow inc.com,1160,38.107752956636006
+cust_000677,CloudTech 677,Retail,Enterprise (500+),2023-11-17,Germany,contact677@saasmaster.com,639,20.992115637319316
+cust_000678,SaasMaster 678,Healthcare,Enterprise (500+),2024-02-10,Germany,contact678@dataflow inc.com,554,18.199737187910642
+cust_000679,GrowthCo 679,Consulting,Mid-Market (51-500),2023-05-20,Germany,contact679@dataflow inc.com,820,26.938239159001313
+cust_000680,DevTools Inc 680,Retail,Enterprise (500+),2025-06-27,Canada,contact680@innovatelab.com,51,1.6754270696452036
+cust_000681,CloudTech 681,Media,Mid-Market (51-500),2023-01-14,UK,contact681@cloudfirst.com,946,31.077529566360052
+cust_000682,DevTools Inc 682,Retail,SMB (1-50),2022-06-12,Germany,contact682@startuphub.com,1162,38.17345597897503
+cust_000683,DevTools Inc 683,Healthcare,SMB (1-50),2024-05-16,Australia,contact683@cloudtech.com,458,15.045992115637318
+cust_000684,ScaleWorks 684,Finance,Enterprise (500+),2022-03-21,Canada,contact684@saasmaster.com,1245,40.90013140604468
+cust_000685,CloudFirst 685,Education,Mid-Market (51-500),2025-04-06,UK,contact685@techcorp.com,133,4.369250985545335
+cust_000686,ScaleWorks 686,Education,Enterprise (500+),2024-05-10,Germany,contact686@innovatelab.com,464,15.243101182654401
+cust_000687,SaasMaster 687,Technology,Enterprise (500+),2024-03-27,Germany,contact687@cloudtech.com,508,16.68856767411301
+cust_000688,GrowthCo 688,Technology,SMB (1-50),2022-06-29,Australia,contact688@saasmaster.com,1145,37.614980289093296
+cust_000689,TechCorp 689,Consulting,Mid-Market (51-500),2023-11-06,UK,contact689@techcorp.com,650,21.353482260183966
+cust_000690,TechCorp 690,Consulting,Enterprise (500+),2024-03-03,Canada,contact690@startuphub.com,532,17.47700394218134
+cust_000691,SaasMaster 691,Education,Mid-Market (51-500),2024-05-13,US,contact691@startuphub.com,461,15.14454664914586
+cust_000692,InnovateLab 692,Finance,Enterprise (500+),2023-10-13,Canada,contact692@growthco.com,674,22.141918528252297
+cust_000693,DataFlow Inc 693,Media,Mid-Market (51-500),2022-06-19,UK,contact693@devtools inc.com,1155,37.943495400788436
+cust_000694,DevTools Inc 694,Retail,Mid-Market (51-500),2023-11-11,Australia,contact694@saasmaster.com,645,21.1892247043364
+cust_000695,SaasMaster 695,Education,Mid-Market (51-500),2023-02-23,UK,contact695@techcorp.com,906,29.7634691195795
+cust_000696,TechCorp 696,Finance,SMB (1-50),2023-05-30,Australia,contact696@techcorp.com,810,26.609724047306177
+cust_000697,InnovateLab 697,Education,SMB (1-50),2023-03-27,Canada,contact697@cloudtech.com,874,28.71222076215506
+cust_000698,CloudFirst 698,Consulting,Enterprise (500+),2024-09-16,Canada,contact698@techcorp.com,335,11.005256241787121
+cust_000699,DataFlow Inc 699,Technology,Mid-Market (51-500),2022-06-01,UK,contact699@growthco.com,1173,38.534822601839686
+cust_000700,TechCorp 700,Retail,SMB (1-50),2022-09-28,France,contact700@scaleworks.com,1054,34.62549277266754
+cust_000701,SaasMaster 701,Healthcare,Enterprise (500+),2024-10-24,Germany,contact701@saasmaster.com,297,9.756898817345597
+cust_000702,StartupHub 702,Media,Mid-Market (51-500),2025-07-25,UK,contact702@startuphub.com,23,0.7555847568988173
+cust_000703,CloudTech 703,Media,SMB (1-50),2023-09-27,UK,contact703@growthco.com,690,22.667542706964518
+cust_000704,GrowthCo 704,Retail,Mid-Market (51-500),2024-04-18,France,contact704@cloudfirst.com,486,15.965834428383705
+cust_000705,ScaleWorks 705,Retail,Enterprise (500+),2022-03-01,US,contact705@scaleworks.com,1265,41.55716162943495
+cust_000706,ScaleWorks 706,Healthcare,Mid-Market (51-500),2022-03-04,Australia,contact706@scaleworks.com,1262,41.45860709592641
+cust_000707,StartupHub 707,Healthcare,Enterprise (500+),2025-04-21,UK,contact707@saasmaster.com,118,3.876478318002628
+cust_000708,TechCorp 708,Media,Mid-Market (51-500),2024-05-30,US,contact708@cloudfirst.com,444,14.586070959264125
+cust_000709,CloudTech 709,Consulting,SMB (1-50),2023-12-27,Canada,contact709@cloudtech.com,599,19.678055190538764
+cust_000710,ScaleWorks 710,Technology,Enterprise (500+),2025-08-14,Canada,contact710@dataflow inc.com,3,0.09855453350854139
+cust_000711,TechCorp 711,Consulting,Enterprise (500+),2022-11-18,Australia,contact711@innovatelab.com,1003,32.95006570302234
+cust_000712,CloudTech 712,Media,Mid-Market (51-500),2023-01-01,Germany,contact712@startuphub.com,959,31.50459921156373
+cust_000713,CloudFirst 713,Finance,SMB (1-50),2024-06-13,UK,contact713@growthco.com,430,14.126149802890932
+cust_000714,DataFlow Inc 714,Education,SMB (1-50),2025-03-01,Canada,contact714@growthco.com,169,5.551905387647832
+cust_000715,DevTools Inc 715,Manufacturing,SMB (1-50),2023-08-18,Germany,contact715@cloudtech.com,730,23.98160315374507
+cust_000716,SaasMaster 716,Education,Mid-Market (51-500),2024-11-26,France,contact716@dataflow inc.com,264,8.672798948751643
+cust_000717,DataFlow Inc 717,Education,SMB (1-50),2024-05-17,Australia,contact717@cloudfirst.com,457,15.013140604467806
+cust_000718,DataFlow Inc 718,Consulting,SMB (1-50),2022-03-05,Canada,contact718@scaleworks.com,1261,41.4257555847569
+cust_000719,CloudTech 719,Finance,Mid-Market (51-500),2023-12-13,Canada,contact719@startuphub.com,613,20.13797634691196
+cust_000720,DevTools Inc 720,Healthcare,Enterprise (500+),2022-05-20,Germany,contact720@devtools inc.com,1185,38.92904073587385
+cust_000721,DataFlow Inc 721,Healthcare,Mid-Market (51-500),2025-03-15,Germany,contact721@cloudtech.com,155,5.091984231274639
+cust_000722,SaasMaster 722,Retail,Mid-Market (51-500),2025-07-11,UK,contact722@startuphub.com,37,1.2155059132720105
+cust_000723,SaasMaster 723,Finance,Mid-Market (51-500),2024-02-22,US,contact723@cloudfirst.com,542,17.805519053876477
+cust_000724,SaasMaster 724,Technology,Enterprise (500+),2024-01-01,UK,contact724@cloudfirst.com,594,19.513797634691194
+cust_000725,TechCorp 725,Media,Enterprise (500+),2025-04-25,Australia,contact725@innovatelab.com,114,3.7450722733245727
+cust_000726,InnovateLab 726,Consulting,SMB (1-50),2022-03-31,France,contact726@scaleworks.com,1235,40.57161629434954
+cust_000727,DataFlow Inc 727,Healthcare,Mid-Market (51-500),2023-06-26,Australia,contact727@scaleworks.com,783,25.7227332457293
+cust_000728,GrowthCo 728,Finance,Enterprise (500+),2025-07-19,US,contact728@cloudfirst.com,29,0.9526938239159001
+cust_000729,DevTools Inc 729,Finance,SMB (1-50),2023-09-22,US,contact729@devtools inc.com,695,22.831800262812088
+cust_000730,DevTools Inc 730,Media,SMB (1-50),2024-01-24,France,contact730@techcorp.com,571,18.758212877792378
+cust_000731,CloudFirst 731,Manufacturing,SMB (1-50),2024-12-30,Canada,contact731@startuphub.com,230,7.555847568988173
+cust_000732,CloudFirst 732,Technology,Enterprise (500+),2025-03-23,Germany,contact732@scaleworks.com,147,4.829172141918528
+cust_000733,SaasMaster 733,Retail,Mid-Market (51-500),2025-03-31,UK,contact733@growthco.com,139,4.566360052562418
+cust_000734,SaasMaster 734,Retail,Mid-Market (51-500),2022-10-06,US,contact734@scaleworks.com,1046,34.36268068331143
+cust_000735,DataFlow Inc 735,Education,Mid-Market (51-500),2023-08-28,UK,contact735@dataflow inc.com,720,23.653088042049934
+cust_000736,SaasMaster 736,Manufacturing,Enterprise (500+),2025-03-25,UK,contact736@dataflow inc.com,145,4.763469119579501
+cust_000737,CloudFirst 737,Consulting,SMB (1-50),2024-04-07,Germany,contact737@growthco.com,497,16.327201051248355
+cust_000738,InnovateLab 738,Healthcare,SMB (1-50),2025-02-19,US,contact738@saasmaster.com,179,5.88042049934297
+cust_000739,StartupHub 739,Retail,SMB (1-50),2022-08-17,US,contact739@growthco.com,1096,36.00525624178712
+cust_000740,StartupHub 740,Manufacturing,SMB (1-50),2022-10-15,UK,contact740@devtools inc.com,1037,34.06701708278581
+cust_000741,TechCorp 741,Consulting,SMB (1-50),2024-02-14,Australia,contact741@cloudtech.com,550,18.068331143232587
+cust_000742,DataFlow Inc 742,Media,Mid-Market (51-500),2023-04-04,Canada,contact742@growthco.com,866,28.44940867279895
+cust_000743,InnovateLab 743,Education,SMB (1-50),2022-02-01,US,contact743@saasmaster.com,1293,42.47700394218134
+cust_000744,DataFlow Inc 744,Manufacturing,SMB (1-50),2023-01-11,Australia,contact744@startuphub.com,949,31.176084099868593
+cust_000745,DevTools Inc 745,Retail,SMB (1-50),2022-10-01,Canada,contact745@scaleworks.com,1051,34.526938239159
+cust_000746,TechCorp 746,Media,Enterprise (500+),2022-04-20,US,contact746@startuphub.com,1215,39.91458607095926
+cust_000747,CloudTech 747,Finance,SMB (1-50),2023-11-04,France,contact747@growthco.com,652,21.419185282522996
+cust_000748,CloudFirst 748,Technology,SMB (1-50),2024-03-15,UK,contact748@scaleworks.com,520,17.082785808147175
+cust_000749,SaasMaster 749,Manufacturing,Enterprise (500+),2025-06-30,Canada,contact749@saasmaster.com,48,1.5768725361366622
+cust_000750,StartupHub 750,Technology,SMB (1-50),2024-08-16,Australia,contact750@dataflow inc.com,366,12.02365308804205
+cust_000751,CloudTech 751,Finance,Mid-Market (51-500),2022-10-13,Germany,contact751@cloudfirst.com,1039,34.13272010512483
+cust_000752,StartupHub 752,Media,Mid-Market (51-500),2023-11-20,UK,contact752@techcorp.com,636,20.893561103810775
+cust_000753,DevTools Inc 753,Healthcare,Enterprise (500+),2024-04-07,UK,contact753@saasmaster.com,497,16.327201051248355
+cust_000754,StartupHub 754,Retail,SMB (1-50),2025-01-21,US,contact754@growthco.com,208,6.83311432325887
+cust_000755,CloudFirst 755,Media,Mid-Market (51-500),2025-06-05,Germany,contact755@dataflow inc.com,73,2.3981603153745072
+cust_000756,ScaleWorks 756,Technology,Enterprise (500+),2023-10-17,France,contact756@cloudtech.com,670,22.010512483574242
+cust_000757,SaasMaster 757,Consulting,Mid-Market (51-500),2024-12-10,Australia,contact757@startuphub.com,250,8.21287779237845
+cust_000758,ScaleWorks 758,Finance,Enterprise (500+),2023-11-14,US,contact758@scaleworks.com,642,21.090670170827856
+cust_000759,InnovateLab 759,Retail,Mid-Market (51-500),2025-05-24,UK,contact759@cloudfirst.com,85,2.7923784494086727
+cust_000760,CloudFirst 760,Media,Mid-Market (51-500),2023-07-11,UK,contact760@cloudtech.com,768,25.229960578186596
+cust_000761,DataFlow Inc 761,Media,SMB (1-50),2025-05-28,US,contact761@innovatelab.com,81,2.6609724047306176
+cust_000762,StartupHub 762,Finance,Enterprise (500+),2024-06-20,UK,contact762@innovatelab.com,423,13.896189224704337
+cust_000763,DataFlow Inc 763,Consulting,Mid-Market (51-500),2025-04-30,Australia,contact763@dataflow inc.com,109,3.5808147174770038
+cust_000764,SaasMaster 764,Consulting,SMB (1-50),2023-03-05,Canada,contact764@scaleworks.com,896,29.43495400788436
+cust_000765,InnovateLab 765,Manufacturing,SMB (1-50),2024-02-08,Australia,contact765@saasmaster.com,556,18.265440210249672
+cust_000766,DevTools Inc 766,Healthcare,Mid-Market (51-500),2025-08-06,Canada,contact766@cloudtech.com,11,0.36136662286465177
+cust_000767,GrowthCo 767,Consulting,SMB (1-50),2023-07-05,Germany,contact767@techcorp.com,774,25.427069645203677
+cust_000768,StartupHub 768,Technology,SMB (1-50),2023-08-28,Australia,contact768@techcorp.com,720,23.653088042049934
+cust_000769,CloudFirst 769,Finance,SMB (1-50),2023-10-02,UK,contact769@saasmaster.com,685,22.503285151116952
+cust_000770,InnovateLab 770,Finance,Enterprise (500+),2023-06-29,France,contact770@scaleworks.com,780,25.62417871222076
+cust_000771,TechCorp 771,Consulting,Mid-Market (51-500),2024-10-29,Canada,contact771@techcorp.com,292,9.592641261498029
+cust_000772,GrowthCo 772,Media,Enterprise (500+),2024-09-29,Australia,contact772@cloudtech.com,322,10.578186596583443
+cust_000773,TechCorp 773,Education,Mid-Market (51-500),2023-04-12,France,contact773@cloudfirst.com,858,28.18659658344284
+cust_000774,TechCorp 774,Media,Enterprise (500+),2023-01-02,UK,contact774@saasmaster.com,958,31.471747700394218
+cust_000775,ScaleWorks 775,Education,Mid-Market (51-500),2023-02-15,US,contact775@innovatelab.com,914,30.02628120893561
+cust_000776,ScaleWorks 776,Retail,SMB (1-50),2023-10-05,Australia,contact776@growthco.com,682,22.404730617608408
+cust_000777,DevTools Inc 777,Education,Enterprise (500+),2025-03-03,US,contact777@cloudfirst.com,167,5.486202365308804
+cust_000778,TechCorp 778,Media,Mid-Market (51-500),2025-06-12,UK,contact778@dataflow inc.com,66,2.1681997371879107
+cust_000779,DataFlow Inc 779,Technology,SMB (1-50),2022-07-17,France,contact779@startuphub.com,1127,37.023653088042046
+cust_000780,TechCorp 780,Finance,SMB (1-50),2022-10-11,France,contact780@saasmaster.com,1041,34.19842312746386
+cust_000781,TechCorp 781,Consulting,SMB (1-50),2024-04-11,France,contact781@dataflow inc.com,493,16.1957950065703
+cust_000782,InnovateLab 782,Media,Enterprise (500+),2025-01-31,US,contact782@saasmaster.com,198,6.504599211563732
+cust_000783,DevTools Inc 783,Media,SMB (1-50),2023-06-21,UK,contact783@innovatelab.com,788,25.88699080157687
+cust_000784,SaasMaster 784,Consulting,Mid-Market (51-500),2025-04-29,UK,contact784@scaleworks.com,110,3.6136662286465175
+cust_000785,InnovateLab 785,Healthcare,Mid-Market (51-500),2022-06-15,Germany,contact785@growthco.com,1159,38.07490144546649
+cust_000786,GrowthCo 786,Manufacturing,Enterprise (500+),2025-01-23,Germany,contact786@dataflow inc.com,206,6.767411300919842
+cust_000787,CloudTech 787,Education,SMB (1-50),2025-08-12,Germany,contact787@cloudfirst.com,5,0.164257555847569
+cust_000788,DevTools Inc 788,Education,Mid-Market (51-500),2025-07-03,US,contact788@devtools inc.com,45,1.4783180026281209
+cust_000789,SaasMaster 789,Finance,SMB (1-50),2023-03-14,Canada,contact789@devtools inc.com,887,29.139290407358736
+cust_000790,GrowthCo 790,Retail,Enterprise (500+),2023-02-18,UK,contact790@saasmaster.com,911,29.927726675427067
+cust_000791,CloudFirst 791,Manufacturing,Mid-Market (51-500),2022-07-23,Australia,contact791@cloudtech.com,1121,36.826544021024965
+cust_000792,StartupHub 792,Retail,Enterprise (500+),2022-05-08,Germany,contact792@dataflow inc.com,1197,39.32325886990802
+cust_000793,CloudTech 793,Manufacturing,SMB (1-50),2023-02-10,Germany,contact793@innovatelab.com,919,30.190538764783177
+cust_000794,GrowthCo 794,Technology,SMB (1-50),2022-09-15,France,contact794@cloudfirst.com,1067,35.05256241787122
+cust_000795,StartupHub 795,Technology,SMB (1-50),2022-07-24,Germany,contact795@scaleworks.com,1120,36.793692509855454
+cust_000796,GrowthCo 796,Media,Enterprise (500+),2025-03-06,Canada,contact796@devtools inc.com,164,5.387647831800263
+cust_000797,GrowthCo 797,Technology,Mid-Market (51-500),2022-09-25,Canada,contact797@innovatelab.com,1057,34.72404730617608
+cust_000798,DevTools Inc 798,Technology,Enterprise (500+),2025-01-06,Australia,contact798@dataflow inc.com,223,7.3258869908015765
+cust_000799,InnovateLab 799,Consulting,Enterprise (500+),2022-09-23,Australia,contact799@dataflow inc.com,1059,34.78975032851511
+cust_000800,DataFlow Inc 800,Consulting,Enterprise (500+),2025-07-17,UK,contact800@dataflow inc.com,31,1.0183968462549278
+cust_000801,SaasMaster 801,Media,Mid-Market (51-500),2022-05-29,Germany,contact801@cloudtech.com,1176,38.633377135348226
+cust_000802,SaasMaster 802,Manufacturing,Enterprise (500+),2024-11-22,Germany,contact802@scaleworks.com,268,8.804204993429698
+cust_000803,DevTools Inc 803,Education,SMB (1-50),2022-01-20,Canada,contact803@techcorp.com,1305,42.8712220762155
+cust_000804,SaasMaster 804,Manufacturing,SMB (1-50),2022-04-22,US,contact804@cloudfirst.com,1213,39.84888304862024
+cust_000805,SaasMaster 805,Media,Enterprise (500+),2023-12-08,Canada,contact805@scaleworks.com,618,20.302233902759525
+cust_000806,DataFlow Inc 806,Education,Mid-Market (51-500),2025-04-18,France,contact806@techcorp.com,121,3.9750328515111693
+cust_000807,SaasMaster 807,Retail,SMB (1-50),2024-01-02,US,contact807@growthco.com,593,19.48094612352168
+cust_000808,SaasMaster 808,Consulting,SMB (1-50),2025-07-06,US,contact808@cloudtech.com,42,1.3797634691195795
+cust_000809,CloudFirst 809,Finance,Mid-Market (51-500),2023-08-17,Germany,contact809@growthco.com,731,24.014454664914584
+cust_000810,DevTools Inc 810,Healthcare,Mid-Market (51-500),2022-07-26,Australia,contact810@cloudfirst.com,1118,36.727989487516425
+cust_000811,InnovateLab 811,Technology,Mid-Market (51-500),2025-06-07,France,contact811@startuphub.com,71,2.3324572930354797
+cust_000812,ScaleWorks 812,Retail,Mid-Market (51-500),2023-12-21,Canada,contact812@devtools inc.com,605,19.87516425755585
+cust_000813,TechCorp 813,Media,Mid-Market (51-500),2023-07-30,France,contact813@innovatelab.com,749,24.605781865965834
+cust_000814,DataFlow Inc 814,Healthcare,SMB (1-50),2025-07-22,US,contact814@cloudtech.com,26,0.8541392904073587
+cust_000815,StartupHub 815,Media,SMB (1-50),2024-08-03,Australia,contact815@startuphub.com,379,12.450722733245728
+cust_000816,DataFlow Inc 816,Finance,Mid-Market (51-500),2025-02-12,France,contact816@startuphub.com,186,6.110381077529566
+cust_000817,DevTools Inc 817,Education,SMB (1-50),2025-08-11,US,contact817@saasmaster.com,6,0.19710906701708278
+cust_000818,InnovateLab 818,Retail,Enterprise (500+),2024-11-10,UK,contact818@innovatelab.com,280,9.198423127463863
+cust_000819,DevTools Inc 819,Finance,Mid-Market (51-500),2024-03-01,France,contact819@techcorp.com,534,17.542706964520367
+cust_000820,CloudFirst 820,Technology,SMB (1-50),2023-08-15,US,contact820@scaleworks.com,733,24.080157687253614
+cust_000821,DataFlow Inc 821,Technology,Mid-Market (51-500),2022-10-27,France,contact821@innovatelab.com,1025,33.67279894875164
+cust_000822,DataFlow Inc 822,Consulting,Enterprise (500+),2023-02-08,Canada,contact822@startuphub.com,921,30.256241787122207
+cust_000823,DataFlow Inc 823,Education,SMB (1-50),2022-10-11,Canada,contact823@cloudfirst.com,1041,34.19842312746386
+cust_000824,GrowthCo 824,Consulting,Mid-Market (51-500),2024-03-01,Australia,contact824@scaleworks.com,534,17.542706964520367
+cust_000825,CloudTech 825,Technology,Mid-Market (51-500),2025-05-28,France,contact825@saasmaster.com,81,2.6609724047306176
+cust_000826,TechCorp 826,Education,SMB (1-50),2023-01-07,US,contact826@scaleworks.com,953,31.307490144546648
+cust_000827,InnovateLab 827,Consulting,Enterprise (500+),2022-12-30,Australia,contact827@techcorp.com,961,31.57030223390276
+cust_000828,TechCorp 828,Technology,Enterprise (500+),2024-05-24,France,contact828@scaleworks.com,450,14.783180026281208
+cust_000829,InnovateLab 829,Healthcare,SMB (1-50),2022-04-02,France,contact829@techcorp.com,1233,40.50591327201051
+cust_000830,GrowthCo 830,Finance,Mid-Market (51-500),2022-03-24,UK,contact830@growthco.com,1242,40.80157687253614
+cust_000831,TechCorp 831,Consulting,SMB (1-50),2022-04-08,Germany,contact831@growthco.com,1227,40.30880420499343
+cust_000832,TechCorp 832,Healthcare,Mid-Market (51-500),2023-03-03,Australia,contact832@dataflow inc.com,898,29.50065703022339
+cust_000833,InnovateLab 833,Retail,Enterprise (500+),2022-10-09,Germany,contact833@techcorp.com,1043,34.26412614980289
+cust_000834,TechCorp 834,Healthcare,SMB (1-50),2025-06-03,France,contact834@devtools inc.com,75,2.463863337713535
+cust_000835,StartupHub 835,Media,SMB (1-50),2024-06-12,US,contact835@startuphub.com,431,14.159001314060447
+cust_000836,TechCorp 836,Finance,Enterprise (500+),2022-12-13,Canada,contact836@growthco.com,978,32.12877792378449
+cust_000837,StartupHub 837,Finance,SMB (1-50),2022-11-02,Canada,contact837@startuphub.com,1019,33.47568988173456
+cust_000838,ScaleWorks 838,Consulting,SMB (1-50),2023-12-19,US,contact838@growthco.com,607,19.940867279894874
+cust_000839,GrowthCo 839,Consulting,SMB (1-50),2023-10-07,Australia,contact839@scaleworks.com,680,22.339027595269382
+cust_000840,DevTools Inc 840,Technology,Mid-Market (51-500),2022-06-28,Germany,contact840@devtools inc.com,1146,37.64783180026281
+cust_000841,StartupHub 841,Technology,Mid-Market (51-500),2025-04-25,US,contact841@devtools inc.com,114,3.7450722733245727
+cust_000842,ScaleWorks 842,Retail,Enterprise (500+),2023-09-14,US,contact842@devtools inc.com,703,23.0946123521682
+cust_000843,TechCorp 843,Technology,Enterprise (500+),2023-03-01,Australia,contact843@cloudtech.com,900,29.566360052562416
+cust_000844,CloudTech 844,Education,Mid-Market (51-500),2024-07-07,US,contact844@innovatelab.com,406,13.337713534822601
+cust_000845,GrowthCo 845,Retail,Enterprise (500+),2025-02-23,Canada,contact845@startuphub.com,175,5.7490144546649145
+cust_000846,GrowthCo 846,Media,SMB (1-50),2023-06-02,UK,contact846@techcorp.com,807,26.511169513797633
+cust_000847,DataFlow Inc 847,Finance,Enterprise (500+),2023-05-30,US,contact847@cloudfirst.com,810,26.609724047306177
+cust_000848,GrowthCo 848,Retail,SMB (1-50),2025-03-17,Germany,contact848@cloudfirst.com,153,5.026281208935611
+cust_000849,DevTools Inc 849,Media,Mid-Market (51-500),2024-06-21,Germany,contact849@growthco.com,422,13.863337713534822
+cust_000850,DevTools Inc 850,Media,Enterprise (500+),2022-09-22,Australia,contact850@cloudtech.com,1060,34.82260183968462
+cust_000851,CloudTech 851,Education,Mid-Market (51-500),2022-11-03,Germany,contact851@scaleworks.com,1018,33.44283837056504
+cust_000852,TechCorp 852,Education,SMB (1-50),2024-04-09,Canada,contact852@cloudfirst.com,495,16.26149802890933
+cust_000853,CloudFirst 853,Consulting,Mid-Market (51-500),2025-02-26,UK,contact853@scaleworks.com,172,5.650459921156373
+cust_000854,ScaleWorks 854,Retail,Enterprise (500+),2023-04-10,Canada,contact854@devtools inc.com,860,28.252299605781864
+cust_000855,CloudTech 855,Education,Enterprise (500+),2022-08-12,Germany,contact855@dataflow inc.com,1101,36.16951379763469
+cust_000856,DevTools Inc 856,Consulting,SMB (1-50),2023-07-01,Canada,contact856@growthco.com,778,25.558475689881732
+cust_000857,GrowthCo 857,Education,Mid-Market (51-500),2025-07-06,Australia,contact857@innovatelab.com,42,1.3797634691195795
+cust_000858,CloudTech 858,Media,Mid-Market (51-500),2024-09-14,US,contact858@cloudfirst.com,337,11.070959264126149
+cust_000859,DataFlow Inc 859,Finance,Mid-Market (51-500),2022-07-09,Canada,contact859@cloudfirst.com,1135,37.286465177398156
+cust_000860,CloudTech 860,Education,SMB (1-50),2025-01-22,France,contact860@techcorp.com,207,6.800262812089356
+cust_000861,DevTools Inc 861,Consulting,Mid-Market (51-500),2025-04-02,France,contact861@devtools inc.com,137,4.50065703022339
+cust_000862,SaasMaster 862,Healthcare,Enterprise (500+),2023-10-03,Australia,contact862@cloudfirst.com,684,22.470433639947437
+cust_000863,SaasMaster 863,Manufacturing,Mid-Market (51-500),2022-06-02,France,contact863@dataflow inc.com,1172,38.50197109067017
+cust_000864,CloudFirst 864,Retail,Mid-Market (51-500),2022-12-21,Germany,contact864@saasmaster.com,970,31.865965834428383
+cust_000865,TechCorp 865,Media,Enterprise (500+),2024-03-04,UK,contact865@growthco.com,531,17.444152431011826
+cust_000866,CloudTech 866,Consulting,Mid-Market (51-500),2025-02-19,Canada,contact866@techcorp.com,179,5.88042049934297
+cust_000867,InnovateLab 867,Retail,Enterprise (500+),2024-10-10,US,contact867@cloudtech.com,311,10.21681997371879
+cust_000868,TechCorp 868,Retail,Mid-Market (51-500),2024-05-02,France,contact868@cloudtech.com,472,15.505913272010512
+cust_000869,GrowthCo 869,Consulting,Mid-Market (51-500),2023-07-20,Australia,contact869@saasmaster.com,759,24.93429697766097
+cust_000870,InnovateLab 870,Manufacturing,Enterprise (500+),2023-06-24,Germany,contact870@cloudtech.com,785,25.78843626806833
+cust_000871,DevTools Inc 871,Finance,Mid-Market (51-500),2023-10-09,UK,contact871@devtools inc.com,678,22.273324572930353
+cust_000872,SaasMaster 872,Manufacturing,Enterprise (500+),2022-03-13,Australia,contact872@cloudfirst.com,1253,41.16294349540079
+cust_000873,TechCorp 873,Media,Mid-Market (51-500),2022-03-12,US,contact873@saasmaster.com,1254,41.1957950065703
+cust_000874,DataFlow Inc 874,Healthcare,Mid-Market (51-500),2025-03-12,Canada,contact874@saasmaster.com,158,5.19053876478318
+cust_000875,SaasMaster 875,Finance,Mid-Market (51-500),2023-10-11,Canada,contact875@cloudtech.com,676,22.207621550591327
+cust_000876,CloudTech 876,Retail,Enterprise (500+),2022-08-20,US,contact876@devtools inc.com,1093,35.90670170827858
+cust_000877,ScaleWorks 877,Retail,Enterprise (500+),2024-05-16,US,contact877@dataflow inc.com,458,15.045992115637318
+cust_000878,ScaleWorks 878,Media,Mid-Market (51-500),2024-12-22,Germany,contact878@cloudfirst.com,238,7.818659658344283
+cust_000879,GrowthCo 879,Manufacturing,SMB (1-50),2022-02-11,France,contact879@techcorp.com,1283,42.1484888304862
+cust_000880,TechCorp 880,Education,SMB (1-50),2024-12-11,US,contact880@devtools inc.com,249,8.180026281208935
+cust_000881,StartupHub 881,Manufacturing,Mid-Market (51-500),2025-05-02,France,contact881@devtools inc.com,107,3.515111695137976
+cust_000882,SaasMaster 882,Consulting,Mid-Market (51-500),2024-06-15,Germany,contact882@innovatelab.com,428,14.060446780551905
+cust_000883,CloudFirst 883,Finance,Mid-Market (51-500),2024-06-17,Germany,contact883@saasmaster.com,426,13.994743758212877
+cust_000884,TechCorp 884,Healthcare,Enterprise (500+),2024-06-17,Australia,contact884@startuphub.com,426,13.994743758212877
+cust_000885,InnovateLab 885,Education,Enterprise (500+),2024-06-20,US,contact885@innovatelab.com,423,13.896189224704337
+cust_000886,TechCorp 886,Technology,SMB (1-50),2022-09-19,UK,contact886@saasmaster.com,1063,34.92115637319316
+cust_000887,GrowthCo 887,Education,Mid-Market (51-500),2024-05-31,UK,contact887@innovatelab.com,443,14.553219448094612
+cust_000888,ScaleWorks 888,Technology,Mid-Market (51-500),2024-05-01,Canada,contact888@scaleworks.com,473,15.538764783180026
+cust_000889,CloudFirst 889,Manufacturing,Mid-Market (51-500),2025-05-14,Australia,contact889@devtools inc.com,95,3.1208935611038107
+cust_000890,CloudTech 890,Technology,Enterprise (500+),2024-10-21,Germany,contact890@dataflow inc.com,300,9.85545335085414
+cust_000891,StartupHub 891,Technology,Enterprise (500+),2024-06-13,UK,contact891@cloudfirst.com,430,14.126149802890932
+cust_000892,CloudTech 892,Media,Mid-Market (51-500),2022-11-19,Australia,contact892@devtools inc.com,1002,32.91721419185282
+cust_000893,ScaleWorks 893,Finance,SMB (1-50),2023-10-31,France,contact893@cloudfirst.com,656,21.55059132720105
+cust_000894,InnovateLab 894,Media,SMB (1-50),2023-08-26,US,contact894@cloudfirst.com,722,23.71879106438896
+cust_000895,StartupHub 895,Education,Enterprise (500+),2023-10-18,Australia,contact895@scaleworks.com,669,21.97766097240473
+cust_000896,InnovateLab 896,Consulting,SMB (1-50),2023-04-23,Canada,contact896@saasmaster.com,847,27.825229960578184
+cust_000897,TechCorp 897,Technology,Mid-Market (51-500),2024-08-15,UK,contact897@saasmaster.com,367,12.056504599211562
+cust_000898,CloudTech 898,Retail,Enterprise (500+),2024-05-26,Canada,contact898@scaleworks.com,448,14.71747700394218
+cust_000899,DevTools Inc 899,Technology,Enterprise (500+),2022-09-12,France,contact899@cloudfirst.com,1070,35.15111695137976
+cust_000900,InnovateLab 900,Technology,Mid-Market (51-500),2025-01-01,Canada,contact900@startuphub.com,228,7.490144546649145
+cust_000901,CloudFirst 901,Retail,Mid-Market (51-500),2025-02-05,UK,contact901@techcorp.com,193,6.340341655716163
+cust_000902,StartupHub 902,Finance,SMB (1-50),2022-04-23,US,contact902@startuphub.com,1212,39.81603153745072
+cust_000903,SaasMaster 903,Healthcare,Mid-Market (51-500),2024-08-13,UK,contact903@saasmaster.com,369,12.12220762155059
+cust_000904,CloudFirst 904,Consulting,Enterprise (500+),2022-11-16,France,contact904@dataflow inc.com,1005,33.01576872536137
+cust_000905,CloudTech 905,Manufacturing,Enterprise (500+),2022-02-19,UK,contact905@scaleworks.com,1275,41.88567674113009
+cust_000906,SaasMaster 906,Technology,Enterprise (500+),2023-02-05,Canada,contact906@cloudfirst.com,924,30.354796320630747
+cust_000907,GrowthCo 907,Technology,Mid-Market (51-500),2025-02-09,Canada,contact907@startuphub.com,189,6.2089356110381075
+cust_000908,InnovateLab 908,Consulting,Mid-Market (51-500),2024-05-23,Canada,contact908@cloudfirst.com,451,14.816031537450723
+cust_000909,GrowthCo 909,Manufacturing,Enterprise (500+),2024-04-16,Australia,contact909@devtools inc.com,488,16.031537450722734
+cust_000910,SaasMaster 910,Technology,SMB (1-50),2022-04-13,US,contact910@cloudtech.com,1222,40.14454664914586
+cust_000911,ScaleWorks 911,Consulting,SMB (1-50),2024-06-01,Canada,contact911@devtools inc.com,442,14.520367936925098
+cust_000912,CloudFirst 912,Education,SMB (1-50),2023-02-25,Germany,contact912@growthco.com,904,29.69776609724047
+cust_000913,CloudFirst 913,Education,Mid-Market (51-500),2025-05-06,UK,contact913@scaleworks.com,103,3.383705650459921
+cust_000914,GrowthCo 914,Retail,SMB (1-50),2023-10-15,Canada,contact914@startuphub.com,672,22.07621550591327
+cust_000915,CloudTech 915,Education,SMB (1-50),2023-09-20,France,contact915@techcorp.com,697,22.897503285151117
+cust_000916,SaasMaster 916,Education,SMB (1-50),2023-05-06,UK,contact916@techcorp.com,834,27.398160315374508
+cust_000917,StartupHub 917,Consulting,Enterprise (500+),2023-11-15,US,contact917@startuphub.com,641,21.057818659658345
+cust_000918,SaasMaster 918,Media,Enterprise (500+),2024-02-05,US,contact918@startuphub.com,559,18.363994743758212
+cust_000919,SaasMaster 919,Media,Enterprise (500+),2025-01-28,UK,contact919@cloudfirst.com,201,6.603153745072273
+cust_000920,GrowthCo 920,Technology,Mid-Market (51-500),2025-01-23,US,contact920@innovatelab.com,206,6.767411300919842
+cust_000921,SaasMaster 921,Retail,SMB (1-50),2024-04-23,Germany,contact921@cloudtech.com,481,15.801576872536137
+cust_000922,StartupHub 922,Healthcare,Enterprise (500+),2023-11-25,Australia,contact922@scaleworks.com,631,20.729303547963205
+cust_000923,CloudFirst 923,Consulting,Enterprise (500+),2023-11-02,Canada,contact923@growthco.com,654,21.48488830486202
+cust_000924,StartupHub 924,Technology,Mid-Market (51-500),2025-01-02,US,contact924@dataflow inc.com,227,7.457293035479632
+cust_000925,CloudFirst 925,Manufacturing,Mid-Market (51-500),2025-08-08,UK,contact925@scaleworks.com,9,0.2956636005256242
+cust_000926,InnovateLab 926,Healthcare,Enterprise (500+),2023-03-18,Canada,contact926@innovatelab.com,883,29.00788436268068
+cust_000927,ScaleWorks 927,Consulting,SMB (1-50),2023-05-02,Canada,contact927@scaleworks.com,838,27.529566360052563
+cust_000928,TechCorp 928,Healthcare,Enterprise (500+),2025-05-25,US,contact928@growthco.com,84,2.759526938239159
+cust_000929,DevTools Inc 929,Technology,Mid-Market (51-500),2022-10-21,France,contact929@scaleworks.com,1031,33.86990801576872
+cust_000930,InnovateLab 930,Consulting,Mid-Market (51-500),2024-07-28,Australia,contact930@dataflow inc.com,385,12.64783180026281
+cust_000931,TechCorp 931,Finance,Enterprise (500+),2022-10-23,Australia,contact931@innovatelab.com,1029,33.8042049934297
+cust_000932,DataFlow Inc 932,Finance,SMB (1-50),2024-10-06,Canada,contact932@startuphub.com,315,10.348226018396845
+cust_000933,InnovateLab 933,Manufacturing,Enterprise (500+),2023-05-27,Canada,contact933@innovatelab.com,813,26.708278580814717
+cust_000934,DataFlow Inc 934,Manufacturing,Mid-Market (51-500),2024-09-30,Germany,contact934@innovatelab.com,321,10.545335085413928
+cust_000935,CloudTech 935,Media,SMB (1-50),2022-03-15,Australia,contact935@cloudfirst.com,1251,41.09724047306176
+cust_000936,ScaleWorks 936,Consulting,Mid-Market (51-500),2024-05-31,Canada,contact936@cloudtech.com,443,14.553219448094612
+cust_000937,GrowthCo 937,Education,Enterprise (500+),2023-12-14,UK,contact937@growthco.com,612,20.105124835742444
+cust_000938,CloudTech 938,Technology,SMB (1-50),2024-12-25,US,contact938@cloudfirst.com,235,7.720105124835742
+cust_000939,DevTools Inc 939,Education,Mid-Market (51-500),2025-05-15,Australia,contact939@cloudtech.com,94,3.088042049934297
+cust_000940,CloudFirst 940,Technology,Mid-Market (51-500),2024-10-08,Canada,contact940@techcorp.com,313,10.282522996057818
+cust_000941,InnovateLab 941,Healthcare,SMB (1-50),2023-02-27,Germany,contact941@saasmaster.com,902,29.632063074901446
+cust_000942,CloudFirst 942,Consulting,Mid-Market (51-500),2024-04-07,Australia,contact942@startuphub.com,497,16.327201051248355
+cust_000943,DataFlow Inc 943,Manufacturing,Enterprise (500+),2024-11-09,Canada,contact943@innovatelab.com,281,9.231274638633376
+cust_000944,DevTools Inc 944,Healthcare,SMB (1-50),2022-12-22,Germany,contact944@startuphub.com,969,31.83311432325887
+cust_000945,InnovateLab 945,Education,SMB (1-50),2024-12-11,UK,contact945@dataflow inc.com,249,8.180026281208935
+cust_000946,DataFlow Inc 946,Retail,Mid-Market (51-500),2022-06-25,Germany,contact946@cloudtech.com,1149,37.746386333771355
+cust_000947,ScaleWorks 947,Finance,Mid-Market (51-500),2025-03-15,France,contact947@innovatelab.com,155,5.091984231274639
+cust_000948,ScaleWorks 948,Healthcare,SMB (1-50),2025-04-07,France,contact948@scaleworks.com,132,4.336399474375821
+cust_000949,CloudTech 949,Healthcare,Enterprise (500+),2023-08-06,Canada,contact949@startuphub.com,742,24.375821287779235
+cust_000950,SaasMaster 950,Media,Enterprise (500+),2023-11-05,Germany,contact950@dataflow inc.com,651,21.38633377135348
+cust_000951,StartupHub 951,Retail,SMB (1-50),2024-08-08,UK,contact951@dataflow inc.com,374,12.28646517739816
+cust_000952,ScaleWorks 952,Education,Enterprise (500+),2025-03-18,US,contact952@dataflow inc.com,152,4.993429697766097
+cust_000953,GrowthCo 953,Healthcare,Mid-Market (51-500),2024-10-23,Germany,contact953@cloudtech.com,298,9.789750328515112
+cust_000954,CloudTech 954,Education,Enterprise (500+),2024-01-29,Australia,contact954@cloudtech.com,566,18.593955321944808
+cust_000955,SaasMaster 955,Healthcare,Mid-Market (51-500),2024-11-19,US,contact955@cloudfirst.com,271,8.902759526938238
+cust_000956,GrowthCo 956,Retail,Enterprise (500+),2024-04-26,UK,contact956@devtools inc.com,478,15.703022339027594
+cust_000957,ScaleWorks 957,Technology,Mid-Market (51-500),2025-05-03,France,contact957@devtools inc.com,106,3.4822601839684624
+cust_000958,CloudFirst 958,Manufacturing,SMB (1-50),2023-07-16,US,contact958@innovatelab.com,763,25.065703022339026
+cust_000959,CloudTech 959,Technology,Mid-Market (51-500),2023-10-30,UK,contact959@saasmaster.com,657,21.583442838370566
+cust_000960,InnovateLab 960,Education,Enterprise (500+),2025-01-24,Canada,contact960@techcorp.com,205,6.734559789750328
+cust_000961,CloudTech 961,Consulting,SMB (1-50),2022-02-06,Canada,contact961@devtools inc.com,1288,42.31274638633377
+cust_000962,DataFlow Inc 962,Healthcare,Enterprise (500+),2023-09-19,Australia,contact962@techcorp.com,698,22.93035479632063
+cust_000963,GrowthCo 963,Manufacturing,Enterprise (500+),2022-03-29,US,contact963@scaleworks.com,1237,40.63731931668857
+cust_000964,CloudTech 964,Manufacturing,SMB (1-50),2024-08-22,Germany,contact964@techcorp.com,360,11.826544021024967
+cust_000965,InnovateLab 965,Finance,Enterprise (500+),2024-03-24,Canada,contact965@saasmaster.com,511,16.78712220762155
+cust_000966,InnovateLab 966,Finance,SMB (1-50),2022-12-30,Australia,contact966@techcorp.com,961,31.57030223390276
+cust_000967,StartupHub 967,Manufacturing,Enterprise (500+),2022-07-19,UK,contact967@startuphub.com,1125,36.957950065703024
+cust_000968,TechCorp 968,Education,Enterprise (500+),2023-06-03,Germany,contact968@saasmaster.com,806,26.47831800262812
+cust_000969,CloudFirst 969,Retail,Mid-Market (51-500),2024-03-28,Canada,contact969@cloudfirst.com,507,16.655716162943495
+cust_000970,GrowthCo 970,Technology,Enterprise (500+),2022-05-31,Canada,contact970@devtools inc.com,1174,38.5676741130092
+cust_000971,ScaleWorks 971,Media,Mid-Market (51-500),2024-06-30,Australia,contact971@techcorp.com,413,13.567674113009199
+cust_000972,CloudTech 972,Technology,Mid-Market (51-500),2023-09-29,Canada,contact972@devtools inc.com,688,22.601839684625492
+cust_000973,DevTools Inc 973,Media,SMB (1-50),2024-08-02,Australia,contact973@saasmaster.com,380,12.483574244415243
+cust_000974,InnovateLab 974,Finance,Mid-Market (51-500),2022-05-12,Canada,contact974@scaleworks.com,1193,39.19185282522996
+cust_000975,DataFlow Inc 975,Consulting,SMB (1-50),2022-03-13,US,contact975@techcorp.com,1253,41.16294349540079
+cust_000976,TechCorp 976,Technology,Enterprise (500+),2023-04-17,Germany,contact976@dataflow inc.com,853,28.02233902759527
+cust_000977,CloudFirst 977,Retail,SMB (1-50),2023-11-15,France,contact977@innovatelab.com,641,21.057818659658345
+cust_000978,CloudTech 978,Technology,Enterprise (500+),2024-08-07,UK,contact978@saasmaster.com,375,12.319316688567673
+cust_000979,StartupHub 979,Finance,Mid-Market (51-500),2024-12-20,Germany,contact979@techcorp.com,240,7.884362680683311
+cust_000980,CloudFirst 980,Healthcare,Mid-Market (51-500),2023-01-18,Australia,contact980@saasmaster.com,942,30.946123521681997
+cust_000981,TechCorp 981,Manufacturing,Mid-Market (51-500),2024-03-04,France,contact981@cloudfirst.com,531,17.444152431011826
+cust_000982,CloudTech 982,Retail,SMB (1-50),2023-04-30,Germany,contact982@growthco.com,840,27.59526938239159
+cust_000983,ScaleWorks 983,Technology,SMB (1-50),2024-09-28,Australia,contact983@growthco.com,323,10.611038107752956
+cust_000984,ScaleWorks 984,Consulting,Enterprise (500+),2023-11-15,Germany,contact984@startuphub.com,641,21.057818659658345
+cust_000985,ScaleWorks 985,Media,Enterprise (500+),2023-01-19,US,contact985@devtools inc.com,941,30.913272010512483
+cust_000986,TechCorp 986,Manufacturing,Mid-Market (51-500),2025-01-31,Germany,contact986@growthco.com,198,6.504599211563732
+cust_000987,ScaleWorks 987,Media,Mid-Market (51-500),2023-06-23,Germany,contact987@growthco.com,786,25.821287779237842
+cust_000988,StartupHub 988,Education,Mid-Market (51-500),2024-08-23,Germany,contact988@innovatelab.com,359,11.793692509855452
+cust_000989,DevTools Inc 989,Technology,Enterprise (500+),2023-06-05,Canada,contact989@growthco.com,804,26.412614980289092
+cust_000990,StartupHub 990,Technology,Mid-Market (51-500),2024-08-28,Germany,contact990@devtools inc.com,354,11.629434954007884
+cust_000991,DevTools Inc 991,Manufacturing,Mid-Market (51-500),2022-11-29,Australia,contact991@cloudtech.com,992,32.58869908015769
+cust_000992,GrowthCo 992,Manufacturing,Enterprise (500+),2023-10-23,Germany,contact992@devtools inc.com,664,21.81340341655716
+cust_000993,CloudTech 993,Technology,Mid-Market (51-500),2022-05-28,Germany,contact993@saasmaster.com,1177,38.66622864651774
+cust_000994,InnovateLab 994,Education,SMB (1-50),2025-06-10,US,contact994@cloudtech.com,68,2.2339027595269383
+cust_000995,DevTools Inc 995,Retail,Mid-Market (51-500),2022-11-27,US,contact995@startuphub.com,994,32.65440210249671
+cust_000996,SaasMaster 996,Retail,Mid-Market (51-500),2025-06-21,Australia,contact996@scaleworks.com,57,1.8725361366622864
+cust_000997,DevTools Inc 997,Finance,SMB (1-50),2023-06-15,US,contact997@dataflow inc.com,794,26.084099868593952
+cust_000998,CloudFirst 998,Retail,SMB (1-50),2023-09-12,France,contact998@innovatelab.com,705,23.160315374507228
+cust_000999,StartupHub 999,Education,Enterprise (500+),2023-07-22,US,contact999@growthco.com,757,24.868593955321945
+cust_001000,TechCorp 1000,Consulting,Mid-Market (51-500),2023-06-17,Australia,contact1000@cloudfirst.com,792,26.018396846254927

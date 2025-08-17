@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional ARR Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: #fafbfc;
+            color: #1a202c;
+            line-height: 1.5;
+        }
+
+        .dashboard-header {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .header-subtitle {
+            font-size: 0.875rem;
+            color: #718096;
+            margin-top: 0.25rem;
+        }
+
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .kpi-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .kpi-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .kpi-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .kpi-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 0.5rem;
+        }
+
+        .kpi-change {
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .change-positive { color: #38a169; }
+        .change-negative { color: #e53e3e; }
+        .change-neutral { color: #718096; }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid #f7fafc;
+        }
+
+        .chart-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .chart-subtitle {
+            font-size: 0.875rem;
+            color: #718096;
+        }
+
+        .performance-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+        }
+
+        .performance-table th {
+            background: #f7fafc;
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #4a5568;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .performance-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 0.875rem;
+        }
+
+        .performance-table tr:hover {
+            background: #f7fafc;
+        }
+
+        .number-cell {
+            text-align: right;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+            font-weight: 500;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            color: #718096;
+            font-size: 0.875rem;
+        }
+
+        .segment-item {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .segment-item:hover {
+            background: #f7fafc;
+            border-color: #cbd5e1;
+        }
+
+        .segment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .segment-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 0.875rem;
+        }
+
+        .segment-arr {
+            font-weight: 700;
+            color: #1a202c;
+            font-size: 0.875rem;
+        }
+
+        .segment-bar {
+            width: 100%;
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .segment-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1s ease;
+        }
+
+        .segment-details {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: #718096;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+
+        .status-good { background-color: #38a169; }
+        .status-warning { background-color: #d69e2e; }
+        .status-critical { background-color: #e53e3e; }
+    </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <div class="header-content">
+            <div>
+                <h1 class="header-title">Annual Recurring Revenue Dashboard</h1>
+                <p class="header-subtitle">Real-time Executive Performance Analytics</p>
+            </div>
+            <div style="font-size: 0.875rem; color: #718096;">
+                Last Updated: <span id="lastUpdated">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+            <div class="kpi-card" onclick="drillDownARR()">
+                <div class="kpi-label">Current ARR</div>
+                <div class="kpi-value" id="currentARR">
+                    <div class="loading">Loading...</div>
+                </div>
+                <div class="kpi-change change-positive" id="arrChange">Loading...</div>
+            </div>
+
+            <div class="kpi-card" onclick="drillDownCustomers()">
+                <div class="kpi-label">Active Customers</div>
+                <div class="kpi-value" id="activeCustomers">
+                    <div class="loading">Loading...</div>
+                </div>
+                <div class="kpi-change change-positive" id="customerChange">Loading...</div>
+            </div>
+
+            <div class="kpi-card" onclick="drillDownARRPerCustomer()">
+                <div class="kpi-label">ARR per Customer</div>
+                <div class="kpi-value" id="arrPerCustomer">
+                    <div class="loading">Loading...</div>
+                </div>
+                <div class="kpi-change change-neutral">Average</div>
+            </div>
+
+            <div class="kpi-card" onclick="drillDownGrowth()">
+                <div class="kpi-label">Monthly Growth</div>
+                <div class="kpi-value" id="monthlyGrowth">
+                    <div class="loading">Loading...</div>
+                </div>
+                <div class="kpi-change" id="growthTrend">Loading...</div>
+            </div>
+        </div>
+
+        <!-- Main Charts Row -->
+        <div class="charts-grid">
+            <!-- ARR Waterfall Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <div>
+                        <h3 class="chart-title">ARR Rollforward Bridge</h3>
+                        <p class="chart-subtitle" id="waterfallPeriod">Loading...</p>
+                    </div>
+                </div>
+                <div style="height: 350px; position: relative;">
+                    <canvas id="waterfallChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Customer Segmentation -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h3 class="chart-title">ARR by Customer Segment</h3>
+                </div>
+                <div id="segmentData">
+                    <div class="loading">Loading segments...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ARR Trend Chart -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h3 class="chart-title">ARR Performance Trend</h3>
+                <p class="chart-subtitle">12-Month Historical View</p>
+            </div>
+            <div style="height: 300px;">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Performance Table -->
+        <div class="chart-container" style="margin-top: 2rem;">
+            <div class="chart-header">
+                <h3 class="chart-title">Monthly Performance Detail</h3>
+            </div>
+            <div style="overflow-x: auto;">
+                <table class="performance-table">
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th style="text-align: right;">ARR</th>
+                            <th style="text-align: right;">Growth %</th>
+                            <th style="text-align: right;">Customers</th>
+                            <th style="text-align: right;">ARR/Customer</th>
+                            <th style="text-align: right;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="performanceTableBody">
+                        <tr><td colspan="6" class="loading">Loading performance data...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global data variables
+        let arrSummaryData = [];
+        let rollforwardData = [];
+        let subscriptionData = [];
+
+        // Main data loading function
+        async function loadAllData() {
+            console.log('Starting data load...');
+            
+            try {
+                // Load ARR Monthly Summary
+                const arrResponse = await fetch('cleaned_arr_data/arr_monthly_summary.csv');
+                if (!arrResponse.ok) throw new Error('ARR summary file not found');
+                const arrText = await arrResponse.text();
+                const arrParsed = Papa.parse(arrText, { header: true, dynamicTyping: true });
+                arrSummaryData = arrParsed.data.filter(row => row.month && row.current_arr);
+                console.log('ARR summary loaded:', arrSummaryData.length, 'records');
+
+                // Load ARR Rollforward
+                const rollforwardResponse = await fetch('cleaned_arr_data/arr_rollforward.csv');
+                if (!rollforwardResponse.ok) throw new Error('Rollforward file not found');
+                const rollforwardText = await rollforwardResponse.text();
+                const rollforwardParsed = Papa.parse(rollforwardText, { header: true, dynamicTyping: true });
+                rollforwardData = rollforwardParsed.data.filter(row => row.month && row.ending_arr);
+                console.log('Rollforward loaded:', rollforwardData.length, 'records');
+
+                // Load Subscriptions for segmentation
+                const subscriptionResponse = await fetch('cleaned_arr_data/subscriptions_clean.csv');
+                if (!subscriptionResponse.ok) throw new Error('Subscriptions file not found');
+                const subscriptionText = await subscriptionResponse.text();
+                const subscriptionParsed = Papa.parse(subscriptionText, { header: true, dynamicTyping: true });
+                subscriptionData = subscriptionParsed.data.filter(row => row.customer_id && row.arr_amount);
+                console.log('Subscriptions loaded:', subscriptionData.length, 'records');
+
+                // Update dashboard with real data
+                updateDashboardWithRealData();
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showDataError(error.message);
+            }
+        }
+
+        function updateDashboardWithRealData() {
+            console.log('Updating dashboard with real data...');
+            
+            if (arrSummaryData.length === 0) {
+                showDataError('No ARR data available');
+                return;
+            }
+
+            // Get latest and previous month data
+            const latestMonth = arrSummaryData[arrSummaryData.length - 1];
+            const previousMonth = arrSummaryData.length > 1 ? arrSummaryData[arrSummaryData.length - 2] : latestMonth;
+            
+            console.log('Latest month data:', latestMonth);
+            console.log('Previous month data:', previousMonth);
+
+            // Update KPI Cards with real data
+            updateKPICards(latestMonth, previousMonth);
+            
+            // Create charts with real data
+            createRealWaterfallChart();
+            createRealTrendChart();
+            updateRealSegmentData();
+            updateRealPerformanceTable();
+            
+            // Update last updated timestamp
+            document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
+        }
+
+        function updateKPICards(latest, previous) {
+            // Current ARR
+            document.getElementById('currentARR').textContent = `$${latest.current_arr.toLocaleString()}`;
+            
+            // ARR Change
+            const arrChange = latest.current_arr - previous.current_arr;
+            const arrChangeElement = document.getElementById('arrChange');
+            arrChangeElement.textContent = `${arrChange >= 0 ? '▲' : '▼'} $${Math.abs(arrChange).toLocaleString()}`;
+            arrChangeElement.className = `kpi-change ${arrChange >= 0 ? 'change-positive' : 'change-negative'}`;
+
+            // Active Customers
+            document.getElementById('activeCustomers').textContent = latest.active_customers.toLocaleString();
+            
+            // Customer Change
+            const customerChange = latest.active_customers - previous.active_customers;
+            const customerChangeElement = document.getElementById('customerChange');
+            customerChangeElement.textContent = `${customerChange >= 0 ? '▲' : '▼'} ${Math.abs(customerChange)}`;
+            customerChangeElement.className = `kpi-change ${customerChange >= 0 ? 'change-positive' : 'change-negative'}`;
+
+            // ARR per Customer
+            const arrPerCustomer = latest.current_arr / latest.active_customers;
+            document.getElementById('arrPerCustomer').textContent = `$${Math.round(arrPerCustomer).toLocaleString()}`;
+
+            // Monthly Growth
+            document.getElementById('monthlyGrowth').textContent = `${latest.arr_growth_rate ? latest.arr_growth_rate.toFixed(1) : '0.0'}%`;
+            
+            const growthTrendElement = document.getElementById('growthTrend');
+            const growthRate = latest.arr_growth_rate || 0;
+            growthTrendElement.textContent = growthRate >= 0 ? 'Growing' : 'Declining';
+            growthTrendElement.className = `kpi-change ${growthRate >= 0 ? 'change-positive' : 'change-negative'}`;
+        }
+
+        function createRealWaterfallChart() {
+            if (rollforwardData.length === 0) {
+                console.log('No rollforward data available for waterfall chart');
+                return;
+            }
+
+            const ctx = document.getElementById('waterfallChart').getContext('2d');
+            const latestRollforward = rollforwardData[rollforwardData.length - 1];
+            
+            console.log('Creating waterfall with data:', latestRollforward);
+
+            // Update period label
+            document.getElementById('waterfallPeriod').textContent = latestRollforward.month;
+
+            const chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Starting\nARR', 'New\nARR', 'Expansion\nARR', 'Contraction\nARR', 'Churn\nARR', 'Ending\nARR'],
+                    datasets: [{
+                        label: 'ARR Components ($)',
+                        data: [
+                            latestRollforward.starting_arr || 0,
+                            latestRollforward.new_arr || 0,
+                            latestRollforward.expansion_arr || 0,
+                            Math.abs(latestRollforward.contraction_arr || 0),
+                            Math.abs(latestRollforward.churned_arr || 0),
+                            latestRollforward.ending_arr || 0
+                        ],
+                        backgroundColor: [
+                            '#64748b',  // Starting - Professional Gray
+                            '#059669',  // New - Success Green
+                            '#10b981',  // Expansion - Light Green
+                            '#f59e0b',  // Contraction - Warning Orange
+                            '#ef4444',  // Churn - Danger Red
+                            '#3b82f6'   // Ending - Primary Blue
+                        ],
+                        borderColor: [
+                            '#475569', '#047857', '#059669', '#d97706', '#dc2626', '#2563eb'
+                        ],
+                        borderWidth: 1,
+                        borderRadius: 4,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(255, 255, 255, 0.96)',
+                            titleColor: '#1a202c',
+                            bodyColor: '#4a5568',
+                            borderColor: '#e2e8f0',
+                            borderWidth: 1,
+                            cornerRadius: 8,
+                            displayColors: true,
+                            callbacks: {
+                                title: function(context) {
+                                    const labels = ['Starting ARR', 'New ARR', 'Expansion ARR', 'Contraction ARR', 'Churn ARR', 'Ending ARR'];
+                                    return labels[context[0].dataIndex];
+                                },
+                                label: function(context) {
+                                    return `$${context.parsed.y.toLocaleString()}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: '#f1f5f9',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#718096',
+                                font: {
+                                    size: 11,
+                                    family: 'Segoe UI'
+                                },
+                                callback: function(value) {
+                                    if (value >= 1000000) {
+                                        return '$' + (value / 1000000).toFixed(1) + 'M';
+                                    } else {
+                                        return '$' + (value / 1000).toFixed(0) + 'K';
+                                    }
+                                }
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#718096',
+                                font: {
+                                    size: 11,
+                                    weight: '500',
+                                    family: 'Segoe UI'
+                                }
+                            }
+                        }
+                    },
+                    onHover: (event, elements) => {
+                        event.native.target.style.cursor = elements.length > 0 ? 'pointer' : 'default';
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].dataIndex;
+                            const labels = ['Starting ARR', 'New ARR', 'Expansion ARR', 'Contraction ARR', 'Churn ARR', 'Ending ARR'];
+                            drillDownComponent(labels[index]);
+                        }
+                    }
+                }
+            });
+        }
+
+        function createRealTrendChart() {
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            
+            // Use last 12 months of data
+            const last12Months = arrSummaryData.slice(-12);
+            
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: last12Months.map(d => {
+                        const date = new Date(d.month + '-01');
+                        return date.toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+                    }),
+                    datasets: [{
+                        label: 'ARR ($)',
+                        data: last12Months.map(d => d.current_arr),
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.3,
+                        pointBackgroundColor: '#3b82f6',
+                        pointBorderColor: '#ffffff',
+                        pointBorderWidth: 2,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(255, 255, 255, 0.96)',
+                            titleColor: '#1a202c',
+                            bodyColor: '#4a5568',
+                            borderColor: '#e2e8f0',
+                            borderWidth: 1,
+                            cornerRadius: 8,
+                            displayColors: false,
+                            callbacks: {
+                                label: function(context) {
+                                    const growth = last12Months[context.dataIndex].arr_growth_rate;
+                                    return [
+                                        `ARR: $${context.parsed.y.toLocaleString()}`,
+                                        `Growth: ${growth ? growth.toFixed(1) : '0.0'}%`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            grid: {
+                                color: '#f1f5f9',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#718096',
+                                font: {
+                                    size: 11,
+                                    family: 'Segoe UI'
+                                },
+                                callback: function(value) {
+                                    if (value >= 1000000) {
+                                        return '$' + (value / 1000000).toFixed(1) + 'M';
+                                    } else {
+                                        return '$' + (value / 1000).toFixed(0) + 'K';
+                                    }
+                                }
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#718096',
+                                font: {
+                                    size: 11,
+                                    family: 'Segoe UI'
+                                }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
+        }
+
+        function updateRealSegmentData() {
+            if (subscriptionData.length === 0) {
+                document.getElementById('segmentData').innerHTML = '<div class="loading">No subscription data available</div>';
+                return;
+            }
+
+            // Filter active subscriptions and group by segment
+            const activeSubscriptions = subscriptionData.filter(sub => sub.is_active === true || sub.is_active === 'TRUE' || sub.status === 'active');
+            
+            const segmentGroups = {};
+            activeSubscriptions.forEach(sub => {
+                const segment = sub.customer_segment || 'Unknown';
+                if (!segmentGroups[segment]) {
+                    segmentGroups[segment] = { arr: 0, customers: 0 };
+                }
+                segmentGroups[segment].arr += parseFloat(sub.arr_amount) || 0;
+                segmentGroups[segment].customers += 1;
+            });
+
+            const segments = Object.entries(segmentGroups).map(([name, data]) => ({
+                name,
+                arr: data.arr,
+                customers: data.customers
+            })).sort((a, b) => b.arr - a.arr);
+
+            const totalARR = segments.reduce((sum, seg) => sum + seg.arr, 0);
+            const colors = ['#1e40af', '#3b82f6', '#60a5fa', '#93c5fd'];
+
+            document.getElementById('segmentData').innerHTML = segments.map((segment, index) => `
+                <div class="segment-item" onclick="drillDownSegment('${segment.name}')">
+                    <div class="segment-header">
+                        <div class="segment-name">${segment.name}</div>
+                        <div class="segment-arr">$${(segment.arr / 1000).toFixed(0)}K</div>
+                    </div>
+                    <div class="segment-bar">
+                        <div class="segment-fill" 
+                             style="width: ${totalARR > 0 ? (segment.arr / totalARR) * 100 : 0}%; background-color: ${colors[index % colors.length]};">
+                        </div>
+                    </div>
+                    <div class="segment-details">
+                        <span>${segment.customers} customers</span>
+                        <span>${totalARR > 0 ? ((segment.arr / totalARR) * 100).toFixed(1) : '0.0'}% of total</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateRealPerformanceTable() {
+            const tableBody = document.getElementById('performanceTableBody');
+            
+            if (arrSummaryData.length === 0) {
+                tableBody.innerHTML = '<tr><td colspan="6">No performance data available</td></tr>';
+                return;
+            }
+
+            // Show last 6 months
+            const recentData = arrSummaryData.slice(-6);
+            
+            tableBody.innerHTML = recentData.map(row => {
+                const date = new Date(row.month + '-01');
+                const monthDisplay = date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+                const growth = row.arr_growth_rate || 0;
+                const arrPerCustomer = row.active_customers > 0 ? Math.round(row.current_arr / row.active_customers) : 0;
+                
+                let statusIndicator = '';
+                let statusText = '';
+                if (growth >= 5) {
+                    statusIndicator = '<span class="status-indicator status-good"></span>';
+                    statusText = 'Strong';
+                } else if (growth >= 0) {
+                    statusIndicator = '<span class="status-indicator status-warning"></span>';
+                    statusText = 'Steady';
+                } else {
+                    statusIndicator = '<span class="status-indicator status-critical"></span>';
+                    statusText = 'Declining';
+                }
+
+                return `
+                    <tr onclick="drillDownMonth('${row.month}')" style="cursor: pointer;">
+                        <td style="font-weight: 500;">${monthDisplay}</td>
+                        <td class="number-cell">$${row.current_arr.toLocaleString()}</td>
+                        <td class="number-cell" style="color: ${growth >= 0 ? '#38a169' : '#e53e3e'}; font-weight: 600;">
+                            ${growth >= 0 ? '+' : ''}${growth.toFixed(1)}%
+                        </td>
+                        <td class="number-cell">${row.active_customers.toLocaleString()}</td>
+                        <td class="number-cell">$${arrPerCustomer.toLocaleString()}</td>
+                        <td style="text-align: center;">${statusIndicator}${statusText}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function showDataError(message) {
+            const errorHTML = `
+                <div style="text-align: center; padding: 2rem; color: #e53e3e;">
+                    <h3>Data Loading Error</h3>
+                    <p>${message}</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem; color: #718096;">
+                        Make sure your CSV files are in the 'cleaned_arr_data/' directory
+                    </p>
+                </div>
+            `;
+            
+            document.getElementById('currentARR').innerHTML = errorHTML;
+        }
+
+        // Interactive functions
+        function drillDownARR() {
+            alert('Drill down: ARR Analysis\n\nThis would show detailed ARR breakdown by:\n• Customer segments\n• Geographic regions\n• Product lines\n• Monthly cohorts');
+        }
+
+        function drillDownCustomers() {
+            alert('Drill down: Customer Analysis\n\nThis would show:\n• Customer acquisition trends\n• Churn analysis\n• Customer lifetime value\n• Retention cohorts');
+        }
+
+        function drillDownARRPerCustomer() {
+            alert('Drill down: Customer Value Analysis\n\nThis would show:\n• ARR distribution by customer size\n• Upselling opportunities\n• Customer value segments\n• Expansion potential');
+        }
+
+        function drillDownGrowth() {
+            alert('Drill down: Growth Analysis\n\nThis would show:\n• Growth rate trends\n• Growth drivers\n• Seasonal patterns\n• Forecasting models');
+        }
+
+        function drillDownComponent(componentName) {
+            alert(`Drill down: ${componentName}\n\nThis would show detailed analysis of this ARR component including:\n• Historical trends\n• Contributing factors\n• Customer breakdown\n• Action items`);
+        }
+
+        function drillDownSegment(segmentName) {
+            alert(`Drill down: ${segmentName} Segment\n\nThis would show:\n• Customer list\n• ARR breakdown\n• Growth trends\n• Retention rates\n• Expansion opportunities`);
+        }
+
+        function drillDownMonth(month) {
+            alert(`Drill down: ${month}\n\nThis would show detailed month analysis:\n• Daily ARR changes\n• Customer activities\n• Transaction details\n• Performance drivers`);
+        }
+
+        function exportData() {
+            alert('Export functionality\n\nThis would export:\n• Executive summary PDF\n• Data tables to Excel\n• Chart images\n• Detailed analysis report');
+        }
+
+        function refreshData() {
+            loadAllData();
+        }
+
+        // Initialize dashboard when page loads
+        window.addEventListener('load', function() {
+            console.log('Page loaded, starting data load...');
+            loadAllData();
+        });
+    </script>
+</body>
+</html>
